@@ -1,0 +1,27 @@
+[
+  {
+    "path": "DST\\ALPHA.TXT",
+    "size": 14,
+    "sha256": "7239f59877ef5744f582e81697be9680922d3044a41a9aab20306efb36b8382d"
+  },
+  {
+    "path": "DST\\BETA.TXT",
+    "size": 13,
+    "sha256": "1a0c4eb78dc86c333a6ce6af384b2c51baa48d06cb90e922abd9599df7a0fa2a"
+  },
+  {
+    "path": "SRC\\ALPHA.TXT",
+    "size": 14,
+    "sha256": "21902985327086cbc58c496bba500bf212e65d6f976afa71ea6af38392d7f6a6"
+  },
+  {
+    "path": "SRC\\BETA.TXT",
+    "size": 13,
+    "sha256": "1a0c4eb78dc86c333a6ce6af384b2c51baa48d06cb90e922abd9599df7a0fa2a"
+  },
+  {
+    "path": "SRC\\GAMMA.DAT",
+    "size": 10,
+    "sha256": "783df00215c7738df86d34bc15a01925fba7e87bd8f5cb976a12471c5a491c95"
+  }
+]

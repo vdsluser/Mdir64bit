@@ -1,0 +1,25 @@
+     Mdir  Run   File Direct Archive   Option
+Pa ┌────────────────────────┐                                   Volume [C_DRIVE]
+══ │ About                  │ ══════════════════════════════════════════════════
+.. │ Help                F1 │ 20 10:55p
+GA │ View environment       │ 20 10:55p
+AL │────────────────────────│ 20 10:55p
+BE │ Parking         Ctrl-P │ 20 10:55p
+[- │ Volume label    Ctrl-V │
+[- │ Format          Ctrl-F │
+[- │ diskCopy        Ctrl-C │
+[- │ Screen saver    Ctrl-S │
+   │────────────────────────│
+   │ Dos command          / │
+   │ Dos command(swap)    ? │
+   │────────────────────────│
+   │ Quit to dos      Alt-X │
+   └────────────────────────┘
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    3 File    1 Dir            37 Byte     67,108,864(12%)byte free (511M)    Q
+Directory│26-10-20│22:55│....│ 26-10-20│TUE│10:59:28pm │F10=MCD│F11=QCD│F12=Menu

@@ -1,0 +1,243 @@
+{
+  "observed_date_seoul": "2026-10-20",
+  "documented_date_seoul": "2026-10-21",
+  "original_version_observed": "Mdir III 3.10, Unregistered version, Personal use only",
+  "original_integrity": {
+    "file_count_including_zip": 37,
+    "all_unchanged": true,
+    "files": [
+      {
+        "file": "BLACK.COL",
+        "sha256": "25290bc93bf109209766bccc9300ec60ddf5ec825483ccfb4fd76fb35526023d"
+      },
+      {
+        "file": "BLUE.COL",
+        "sha256": "2380f3e40078ca896607da570c9111ab941a1e3046c10b488c6e93ebecd827b4"
+      },
+      {
+        "file": "DESCRIPT.ION",
+        "sha256": "90fba500141eac014b073986d5d4a977d459a7f7153c3a2cfcd4fbc166babb07"
+      },
+      {
+        "file": "DSCMAN.EXE",
+        "sha256": "70dc8c602dc54b0a17b5238629f89c49cd5440ef306213f7d1c23942d5945c34"
+      },
+      {
+        "file": "HCONV.EXE",
+        "sha256": "a9f09da721a9afdcc6f1fd34d293843c07e8669cccd135c9cbcb0b9068404bff"
+      },
+      {
+        "file": "HE.COM",
+        "sha256": "963315333a419e33024b98559fecede1a0975be685e8fd816865f4c826bb530a"
+      },
+      {
+        "file": "M-J.HLP",
+        "sha256": "e8dd5afb3853ff9e73cb33ede1e84f121c2fd9aa8dc5b70b02103b0265a03714"
+      },
+      {
+        "file": "M-K.HLP",
+        "sha256": "6c4b158402c037dd0d155d01283a5f07eaaf66bcacbb1e7ae9c556555eb26ab0"
+      },
+      {
+        "file": "M.CFG",
+        "sha256": "372a59fc0efc9293e8ed9184aa9c30f9351d4ee9b8393542be5c40d68643a216"
+      },
+      {
+        "file": "M.DOC",
+        "sha256": "93a2ff980bd365e4622b619259e716b0fb55db9f6aa3a295c0c643b659feff97"
+      },
+      {
+        "file": "M.EXE",
+        "sha256": "bb7514f4e16e3fc7a097e114045035b463cc568a21124eb625bc8432099a5016"
+      },
+      {
+        "file": "M.HIS",
+        "sha256": "2393328f0a2ffd65d4243222f58ac48b4a5c70b99e0c9ca7d832cb024a0cfbe7"
+      },
+      {
+        "file": "M.HLP",
+        "sha256": "79803023e616917f22a77ad8e0436d849703848250e8592eb6d23b549f297546"
+      },
+      {
+        "file": "M.ICO",
+        "sha256": "32af188962135c6f5675a7014faa1943fa4ce2c0d39e058941f555ced29f8651"
+      },
+      {
+        "file": "M.PIF",
+        "sha256": "5382ea8d5e48eb24279727c3d2c271f8bb15de64257ba492a6e4b3d74268a3c9"
+      },
+      {
+        "file": "MCD.BAT",
+        "sha256": "8c0151e1c67d7fd7b4aed734702a6311720717d3423612398b67deb9b560d576"
+      },
+      {
+        "file": "MCOPY.DOC",
+        "sha256": "aaaa349b98baa626e833958db799e44459e9bfb369e1f47b0e6855e30017af7c"
+      },
+      {
+        "file": "MCOPY.EXE",
+        "sha256": "986c114437ef4932d57b3eb10e9c9027e1252bcc3d05e91b3d39a57e35623380"
+      },
+      {
+        "file": "MDIR.BAT",
+        "sha256": "decc9732c662b09c9f1d4f55e6c105a318df050d5e20715baee04b7879c4b869"
+      },
+      {
+        "file": "MDIR.REG",
+        "sha256": "037cb6818eed30787050ebb6c2e0192767d6f14bc45fddc294585de1d2bdbc61"
+      },
+      {
+        "file": "mdir.zip",
+        "sha256": "c983508e7937aac926ba6ac6578c27f1e82385e52f9feb10eb4e4c6973c1aa89"
+      },
+      {
+        "file": "MF.DOC",
+        "sha256": "13210be75c83e6daf26288ef70c355f063cd7521f76c1a7d8b39e5e43113b08d"
+      },
+      {
+        "file": "MF.EXE",
+        "sha256": "0d1bc391e8b01bb5f81292a2b5cc39f220e3b64051b567f70c0b0552b6dfe3f1"
+      },
+      {
+        "file": "MFF.DOC",
+        "sha256": "6ca1e0ff9d0bfd520c018aae90d55e30ef7af38551c0a03ecac58a52c8840c2b"
+      },
+      {
+        "file": "MFF.EXE",
+        "sha256": "76fef9fc8fc250fe7c865b838fd3050860bf72ef260cd742daeaa77356c42e08"
+      },
+      {
+        "file": "MOUSE.COM",
+        "sha256": "96a8c56f36bdf951552a53a3b4b0ace5a007d7c5d0e4a6af4a8690efab885d3e"
+      },
+      {
+        "file": "MOUSE.INI",
+        "sha256": "7d97f6653b4bd0dca3a5cefc1538d6401c1e48940afbd20036468ff66f3aefb4"
+      },
+      {
+        "file": "MSET.DOC",
+        "sha256": "29e65534b42060daae8977f59f24584ee8f75c85d7428c0660f242408210db70"
+      },
+      {
+        "file": "MSET.EXE",
+        "sha256": "f9c23fd2636b647f1ad8703588c1c69767a8af532901f8c44c431f7165791436"
+      },
+      {
+        "file": "MUPDATE.DOC",
+        "sha256": "ee7119cce0c7735f3efbea874f53e98942803667c840649ca0602884b2246d8c"
+      },
+      {
+        "file": "ORDER.DOC",
+        "sha256": "35381ccc8c230f823b7420c62fbb2d0f5da8f5e8e840e13b2ebdf1bb60c4d0dd"
+      },
+      {
+        "file": "Q&A.DOC",
+        "sha256": "74d1a1322463fc579e112d6cddd76f2f272956149d023c8f37f36f92e86c0964"
+      },
+      {
+        "file": "README.DOC",
+        "sha256": "4b0eab0f7123af529e4d04d9e1b389a1342c3085290a1432daf39039a04edfb3"
+      },
+      {
+        "file": "serial.txt",
+        "sha256": "1837eb2bca100f99660f36dd52683b907190f3c7068e5ca647565079b6fa5b50"
+      },
+      {
+        "file": "TIP.DOC",
+        "sha256": "5e3365da22b0f3357398a874adca45ec2ba1d059ee98ad667aa31ae61e7cddb7"
+      },
+      {
+        "file": "VV.DOC",
+        "sha256": "b7d806b090e1d2bc80a67de2ee30601d0bd2194aa7db997a04ccfa23fc1b9cf4"
+      },
+      {
+        "file": "VV.EXE",
+        "sha256": "665e0f7de0f22162778866a36ef4fd16c8a2461924177578b949e85d0b811803"
+      }
+    ]
+  },
+  "emulator": {
+    "version": "2026.10.01",
+    "asset": "dosbox-x-vsbuild-win64-2026.10.01-portable.zip",
+    "url": "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v2026.10.01/dosbox-x-vsbuild-win64-2026.10.01-portable.zip",
+    "published_digest": "sha256:3c50915e63aefe35777d65ebb4391a06b4a2c2342e4c75cbee6bbda4c6916e33",
+    "archive_sha256": "3c50915e63aefe35777d65ebb4391a06b4a2c2342e4c75cbee6bbda4c6916e33",
+    "sdl1_exe_sha256": "5534a75e0bcb9c725af0f77cedec8db422c22552a3d1cacd68ed06badd02110d",
+    "sdl2_exe_sha256": "a82adcfa7af2784566cfeff74c077cefed08505396db2948b7e6aa7d4cee0832"
+  },
+  "guest": {
+    "kernel": "DOSBox-X internal DOS",
+    "reported_dos": "6.22",
+    "lfn": false,
+    "machine": "svga_s3",
+    "mem_mb": 16,
+    "cpu": "normal / fixed 10000",
+    "keyboard": "us",
+    "ime": false,
+    "host_mount": "analysis-local/drive -> C: only",
+    "physical_disk_images_mounted": false,
+    "command": "C:\\MDIR\\M.EXE /X",
+    "initial_working_directory": "C:\\TEST\\SRC"
+  },
+  "host_observed_version": "Windows NT 10.0.26300.0",
+  "input_method": "Initial Windows Computer Use mouse; then BIOS keyboard ring via DOSBox-X official debugger",
+  "caveats": [
+    "No Win95/MS-DOS installation used",
+    "No timing/performance claim",
+    "No physical keyboard fidelity claim",
+    "Raw VGA memory and transient local debugger files are excluded",
+    "Initial exploratory attempts are not PASS cases"
+  ],
+  "cfg": {
+    "original_sha256": "372a59fc0efc9293e8ed9184aa9c30f9351d4ee9b8393542be5c40d68643a216",
+    "after_sha256": "05c5c97452083081b4c012a94a2a158a84f1ec57bde8ccf7428d8ad3a93c64fd",
+    "changed_option": "24-hour display OFF -> ON; saved and restart confirmed"
+  },
+  "synthetic_results": [
+    {
+      "file": "TEST/ARG.TXT",
+      "bytes": 10,
+      "sha256": "2ffcaca49334beae9b3d9eb58db35eb151a05a113387e67e63cb428488280238"
+    },
+    {
+      "file": "TEST/DST/ALPHA.TXT",
+      "bytes": 14,
+      "sha256": "7239f59877ef5744f582e81697be9680922d3044a41a9aab20306efb36b8382d"
+    },
+    {
+      "file": "TEST/DST/BETA.TXT",
+      "bytes": 13,
+      "sha256": "1a0c4eb78dc86c333a6ce6af384b2c51baa48d06cb90e922abd9599df7a0fa2a"
+    },
+    {
+      "file": "TEST/DST/GAMMA.DAT",
+      "bytes": 10,
+      "sha256": "783df00215c7738df86d34bc15a01925fba7e87bd8f5cb976a12471c5a491c95"
+    },
+    {
+      "file": "TEST/SRC/ALPHA.TXT",
+      "bytes": 14,
+      "sha256": "21902985327086cbc58c496bba500bf212e65d6f976afa71ea6af38392d7f6a6"
+    },
+    {
+      "file": "TEST/SRC/BETA.TXT",
+      "bytes": 13,
+      "sha256": "1a0c4eb78dc86c333a6ce6af384b2c51baa48d06cb90e922abd9599df7a0fa2a"
+    },
+    {
+      "file": "TEST/SRC/DESCRIPT.ION",
+      "bytes": 92,
+      "sha256": "a8b16fed39e423e4cb74a21ba6a2f44c1c19609796c5f0d202e807dd34546aca"
+    },
+    {
+      "file": "TEST/SRC/TEST.ZIP",
+      "bytes": 220,
+      "sha256": "3d2b78fbdd5b35b0f8a58a4fc392026b9cf4e6c851d90db370000bf469060eef"
+    },
+    {
+      "file": "TEST/VARS.TXT",
+      "bytes": 68,
+      "sha256": "28113b13c2ce64b639056552886b88273ae9f89a84e3b0ad1ad1888e03a12b3d"
+    }
+  ]
+}

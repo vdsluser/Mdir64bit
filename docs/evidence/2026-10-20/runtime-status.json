@@ -1,0 +1,1330 @@
+{
+  "observed_date_seoul": "2026-10-20",
+  "documented_date_seoul": "2026-10-21",
+  "stage": "P0 in progress",
+  "feature_rows": 173,
+  "fully_verified_feature_rows": 0,
+  "status_semantics": "Menu presence and individual cases never mean full feature verification",
+  "summary": {
+    "PARTIAL": 31,
+    "NOT_RUN": 45,
+    "BLOCKED_TOOL": 1,
+    "BLOCKED_REGISTERED": 8,
+    "MENU_OBSERVED": 80,
+    "OBSERVED_CASE": 7,
+    "DIFF": 1
+  },
+  "features": [
+    {
+      "id": "UI-001",
+      "status": "PARTIAL",
+      "scope": "메인 6메뉴와 도움말만 확인; 연결명령 목록 및 모든 코드 모드는 미검증",
+      "evidence": [
+        "019-bios-menu.txt",
+        "020-help.txt"
+      ]
+    },
+    {
+      "id": "UI-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "UI-003",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "UI-004",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "UI-005",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "UI-006",
+      "status": "PARTIAL",
+      "scope": "이름순 한 사례만 확인; 나머지 정렬·역순 미검증",
+      "evidence": [
+        "022-name-sort-single.txt"
+      ]
+    },
+    {
+      "id": "UI-007",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "NAV-001",
+      "status": "PARTIAL",
+      "scope": "방향키로 파일·트리 이동만 확인",
+      "evidence": [
+        "023-select-one.txt",
+        "034-mcd.txt"
+      ]
+    },
+    {
+      "id": "NAV-002",
+      "status": "PARTIAL",
+      "scope": "문자로 선택 파일 찾기만 확인; 반복/취소/확장 옵션 미검증",
+      "evidence": []
+    },
+    {
+      "id": "NAV-003",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "NAV-004",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "NAV-005",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "MOUSE-001",
+      "status": "PARTIAL",
+      "scope": "상태선 메뉴 클릭만 확인; 모든 버튼 의미 미검증",
+      "evidence": [
+        "019-bios-menu.txt"
+      ]
+    },
+    {
+      "id": "MOUSE-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "SEL-001",
+      "status": "PARTIAL",
+      "scope": "Space 선택 및 커서 다음 행 이동만 확인",
+      "evidence": [
+        "023-select-one.txt"
+      ]
+    },
+    {
+      "id": "SEL-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "FILE-001",
+      "status": "PARTIAL",
+      "scope": "단일 파일 복사와 내용 해시 확인; 다중/폴더/키 설정 미검증",
+      "evidence": [
+        "029-files.json"
+      ]
+    },
+    {
+      "id": "FILE-002",
+      "status": "PARTIAL",
+      "scope": "충돌 6항목의 UI와 Esc 취소만 확인; 6정책 각각 처리 미검증",
+      "evidence": [
+        "026-copy-conflict.txt",
+        "027-copy-cancel.txt"
+      ]
+    },
+    {
+      "id": "FILE-003",
+      "status": "PARTIAL",
+      "scope": "충돌 취소 때 파일 내용 보존; 선택 표시 해제 관찰, 부족 용량은 미검증",
+      "evidence": [
+        "027-copy-cancel.txt"
+      ]
+    },
+    {
+      "id": "FILE-004",
+      "status": "PARTIAL",
+      "scope": "동일 드라이브 GAMMA 이동, 원본 부재·대상 내용 일치; 교차 드라이브 미검증",
+      "evidence": [
+        "075-move-complete.txt",
+        "environment.json"
+      ]
+    },
+    {
+      "id": "FILE-005",
+      "status": "PARTIAL",
+      "scope": "단일 폴더 NEWDIR -> RENAMED 확인; 파일/일괄/예약명 미검증",
+      "evidence": [
+        "033-renamed.txt"
+      ]
+    },
+    {
+      "id": "FILE-006",
+      "status": "PARTIAL",
+      "scope": "읽기전용 삭제의 추가 질문과 취소 확인; 삭제 성공·폴더/루트 삭제 미검증",
+      "evidence": [
+        "071-delete-readonly-extra.txt",
+        "072-delete-cancel.txt"
+      ]
+    },
+    {
+      "id": "FILE-007",
+      "status": "PARTIAL",
+      "scope": "NEWDIR 생성 확인; 중복/오류/긴 이름 미검증",
+      "evidence": [
+        "031-mkdir-created.txt"
+      ]
+    },
+    {
+      "id": "FILE-008",
+      "status": "PARTIAL",
+      "scope": "단일 파일 ReadOnly 쓰기·호스트 속성 확인; 나머지 속성/일괄 미검증",
+      "evidence": [
+        "069-readonly-set.txt"
+      ]
+    },
+    {
+      "id": "FILE-009",
+      "status": "PARTIAL",
+      "scope": "Alt-V 연결이 VV의 등록 오류까지 도달; 인쇄 미검증",
+      "evidence": [
+        "vv-registration-blocked.png"
+      ]
+    },
+    {
+      "id": "DISK-001",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "DISK-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "TREE-001",
+      "status": "PARTIAL",
+      "scope": "F10 및 대상선택 트리와 드라이브 선택 확인; 전체 키 조합 미검증",
+      "evidence": [
+        "034-mcd.txt"
+      ]
+    },
+    {
+      "id": "TREE-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "TREE-003",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "TREE-004",
+      "status": "PARTIAL",
+      "scope": "F9 파일수·하위폴더수·37바이트 집계 확인; 모든 통계/정렬 미검증",
+      "evidence": [
+        "035-tree-size.txt"
+      ]
+    },
+    {
+      "id": "QCD-001",
+      "status": "PARTIAL",
+      "scope": "1번 등록과 Shift-F1 경로 이동 확인; 삭제/오류/재시작 지속성 미검증",
+      "evidence": [
+        "038-qcd-saved.txt",
+        "073-qcd-jump.txt"
+      ]
+    },
+    {
+      "id": "RUN-001",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "RUN-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "RUN-003",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "RUN-004",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "RUN-005",
+      "status": "PARTIAL",
+      "scope": "Ctrl-T로 PKUNZIP 오류가 있는 마지막 작업화면 확인",
+      "evidence": [
+        "085-archive-last-screen.txt"
+      ]
+    },
+    {
+      "id": "CMD-001",
+      "status": "PARTIAL",
+      "scope": "? 명령에서 ECHO 및 리다이렉션 확인; 배치/스와핑 전체 모드 미검증",
+      "evidence": [
+        "093-command-variable.txt",
+        "arg.txt"
+      ]
+    },
+    {
+      "id": "CMD-002",
+      "status": "PARTIAL",
+      "scope": "Ctrl-Y 전체 지우기와 문자열 입력 확인; 나머지 편집/경로 삽입 미검증",
+      "evidence": [
+        "042-mff-edit.txt"
+      ]
+    },
+    {
+      "id": "CMD-003",
+      "status": "PARTIAL",
+      "scope": "PgUp 이력 메뉴에 두 명령 표시; 저장/재시작/수정실행 미검증",
+      "evidence": [
+        "097-command-history.txt"
+      ]
+    },
+    {
+      "id": "CLI-001",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "CLI-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "CLI-003",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "CLI-004",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "CLI-005",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "DESC-001",
+      "status": "PARTIAL",
+      "scope": "단일 ASCII 주석 저장·80바이트 편집한계 확인; 다중/삭제/한글 미검증",
+      "evidence": [
+        "077-description-saved.txt",
+        "078-description-long.txt"
+      ]
+    },
+    {
+      "id": "DESC-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "DESC-003",
+      "status": "PARTIAL",
+      "scope": "주석 표시와 재시작 후 읽기만 확인; LFN 변환 및 표시모드 전체 미검증",
+      "evidence": [
+        "082-restart-restored.txt"
+      ]
+    },
+    {
+      "id": "ARC-001",
+      "status": "PARTIAL",
+      "scope": "ZIP이 PKUNZIP 호출까지 도달; 외부도구 부재, 나머지 형식 미검증",
+      "evidence": [
+        "085-archive-last-screen.txt"
+      ]
+    },
+    {
+      "id": "ARC-002",
+      "status": "BLOCKED_TOOL",
+      "scope": "ZIP 내부 탐색 시 PKUNZIP 부재; 트리·평탄화 미검증",
+      "evidence": [
+        "085-archive-last-screen.txt"
+      ]
+    },
+    {
+      "id": "ARC-003",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "ARC-004",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "ARC-005",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "ARC-006",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "FIND-001",
+      "status": "PARTIAL",
+      "scope": "C: *.TXT 검색 4개/54바이트만 확인; 다중패턴/전체드라이브 미검증",
+      "evidence": [
+        "042-mff-edit.txt",
+        "043-mff-exact.txt"
+      ]
+    },
+    {
+      "id": "FIND-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "FIND-003",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "FIND-004",
+      "status": "PARTIAL",
+      "scope": "Enter/Yes로 결과 디렉토리 복귀만 확인; /X에서 커서는 부모 행",
+      "evidence": [
+        "044-mff-location.txt",
+        "045-mff-location-confirm.txt"
+      ]
+    },
+    {
+      "id": "VIEW-001",
+      "status": "BLOCKED_REGISTERED",
+      "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+      "evidence": [
+        "vv-registration-blocked.png"
+      ]
+    },
+    {
+      "id": "VIEW-002",
+      "status": "BLOCKED_REGISTERED",
+      "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+      "evidence": [
+        "vv-registration-blocked.png"
+      ]
+    },
+    {
+      "id": "VIEW-003",
+      "status": "BLOCKED_REGISTERED",
+      "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+      "evidence": [
+        "vv-registration-blocked.png"
+      ]
+    },
+    {
+      "id": "VIEW-004",
+      "status": "BLOCKED_REGISTERED",
+      "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+      "evidence": [
+        "vv-registration-blocked.png"
+      ]
+    },
+    {
+      "id": "VIEW-005",
+      "status": "BLOCKED_REGISTERED",
+      "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+      "evidence": [
+        "vv-registration-blocked.png"
+      ]
+    },
+    {
+      "id": "VIEW-006",
+      "status": "BLOCKED_REGISTERED",
+      "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+      "evidence": [
+        "vv-registration-blocked.png"
+      ]
+    },
+    {
+      "id": "FORMAT-001",
+      "status": "BLOCKED_REGISTERED",
+      "scope": "MF 메뉴는 실행; Format 작업은 등록 제한으로 차단",
+      "evidence": [
+        "087-mf-no-media.txt"
+      ]
+    },
+    {
+      "id": "COPY-001",
+      "status": "BLOCKED_REGISTERED",
+      "scope": "MCOPY 메뉴는 실행; Read 작업은 등록 제한으로 차단",
+      "evidence": [
+        "091-mcopy-read-no-media.txt"
+      ]
+    },
+    {
+      "id": "COPY-002",
+      "status": "PARTIAL",
+      "scope": "Format ON/OFF 메뉴 전환은 확인; 실제 포맷 작업은 등록 제한",
+      "evidence": [
+        "090-mcopy-format-off.txt"
+      ]
+    },
+    {
+      "id": "LEGACY-001",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "LEGACY-002",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "LEGACY-003",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "LEGACY-004",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "SET-001",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mdir-menu.png"
+      ]
+    },
+    {
+      "id": "SET-002",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mdir-menu.png"
+      ]
+    },
+    {
+      "id": "SET-003",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mdir-menu.png"
+      ]
+    },
+    {
+      "id": "SET-004",
+      "status": "PARTIAL",
+      "scope": "24시간제 변경 후 저장과 메인 반영·CFG 해시 변화 확인",
+      "evidence": [
+        "067-mset-save.txt",
+        "environment.json"
+      ]
+    },
+    {
+      "id": "SET-005",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mdir-menu.png"
+      ]
+    },
+    {
+      "id": "SET-006",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mdir-menu.png"
+      ]
+    },
+    {
+      "id": "SET-007",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mdir-menu.png"
+      ]
+    },
+    {
+      "id": "SET-008",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mdir-menu.png"
+      ]
+    },
+    {
+      "id": "SET-009",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-010",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-011",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-012",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-013",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-014",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-015",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-016",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-017",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-018",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-019",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-020",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-program-menu.png"
+      ]
+    },
+    {
+      "id": "SET-021",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-022",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-023",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-024",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-025",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-026",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-027",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-028",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-029",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-030",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-031",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-032",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-033",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-034",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-035",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-036",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-037",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-038",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-main-options.png"
+      ]
+    },
+    {
+      "id": "SET-039",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mcd-menu.png"
+      ]
+    },
+    {
+      "id": "SET-040",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mcd-menu.png"
+      ]
+    },
+    {
+      "id": "SET-041",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mcd-menu.png"
+      ]
+    },
+    {
+      "id": "SET-042",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mcd-menu.png"
+      ]
+    },
+    {
+      "id": "SET-043",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mcd-menu.png"
+      ]
+    },
+    {
+      "id": "SET-044",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mcd-menu.png"
+      ]
+    },
+    {
+      "id": "SET-045",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mcd-menu.png"
+      ]
+    },
+    {
+      "id": "SET-046",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-mcd-menu.png"
+      ]
+    },
+    {
+      "id": "SET-047",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-048",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-049",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-050",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-051",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-052",
+      "status": "PARTIAL",
+      "scope": "24시간제 OFF->ON 저장·재시작 유지 확인; 취소 사례 미검증",
+      "evidence": [
+        "mset-time-option.png",
+        "082-restart-restored.txt"
+      ]
+    },
+    {
+      "id": "SET-053",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-054",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-055",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-056",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-057",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-058",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-059",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-060",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-061",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-062",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-063",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-064",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-other-menu.png"
+      ]
+    },
+    {
+      "id": "SET-065",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-066",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-067",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-068",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-069",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-070",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-071",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-072",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-073",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-074",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-075",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-076",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-077",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-078",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-079",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-080",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-081",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "SET-082",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "evidence": [
+        "mset-colors-menu.png"
+      ]
+    },
+    {
+      "id": "VAR-001",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "evidence": [
+        "vars.txt",
+        "096-simple-variables-result.txt"
+      ]
+    },
+    {
+      "id": "VAR-002",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "evidence": [
+        "vars.txt",
+        "096-simple-variables-result.txt"
+      ]
+    },
+    {
+      "id": "VAR-003",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "evidence": [
+        "vars.txt",
+        "096-simple-variables-result.txt"
+      ]
+    },
+    {
+      "id": "VAR-004",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "evidence": [
+        "vars.txt",
+        "096-simple-variables-result.txt"
+      ]
+    },
+    {
+      "id": "VAR-005",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "evidence": [
+        "vars.txt",
+        "096-simple-variables-result.txt"
+      ]
+    },
+    {
+      "id": "VAR-006",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "evidence": [
+        "vars.txt",
+        "096-simple-variables-result.txt"
+      ]
+    },
+    {
+      "id": "VAR-007",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "evidence": [
+        "vars.txt",
+        "096-simple-variables-result.txt"
+      ]
+    },
+    {
+      "id": "VAR-008",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-009",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-010",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-011",
+      "status": "DIFF",
+      "scope": "ECHO의 %M 치환 결과 빈 값; 문서 기대 C:\\MDIR\\와 다름. 원인 미확정",
+      "evidence": [
+        "vars.txt"
+      ]
+    },
+    {
+      "id": "VAR-012",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-013",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-014",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-015",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-016",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-017",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-018",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-019",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "evidence": []
+    },
+    {
+      "id": "VAR-020",
+      "status": "PARTIAL",
+      "scope": "%L이 TEST.ZIP 반환; DOS6.22/LFN OFF이므로 긴 이름 동작 미검증",
+      "evidence": [
+        "vars.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C ┌────────────────────────────────────────────────────────────────┐ DRIVE]
+══════ │                   Quick Help - Mdir III 3.10                   │ ══════
+..     │                                                                │
+GAMMA  │ ┌────────────────────────────────────────────────────────────┐ │
+ALPHA  │ │  Press <Alt> or <Ctrl> to see Hot-Key   <Ctrl-F12>: Setup  │ │
+BETA   │ └────────────────────────────────────────────────────────────┘ │
+[-A-]  │ ┌──[ * ]──────────────────┐  ┌──[ RUN ]──────────────────────┐ │
+[-B-]  │ │ F12 : MENU (Ctrl-Ins)   │  │      Enter: run, Ext-Run      │ │
+[-C-]  │ │ F10 : MCD               │  │ Ctrl-Enter: run with argu     │ │
+[-Z-]  │ │ F11 : QCD (#F1..#F10)   │  │  Alt-SPACE: Quit              │ │
+       │ │                         │  │ Ctrl-SPACE: Quit with argu    │ │
+       │ │ /   : dos command       │  │        Tab: Swapped, Ext-Run  │ │
+       │ │ ?   : dos command(swap) │  │  Shift-Tab: Swapped with argu │ │
+       │ │ F1  : HELP              │  │     Ctrl-T: review dos screen │ │
+       │ └─────────────────────────┘  └───────────────────────────────┘ │
+       │ ┌──[ CURSOR / WORK ]─────────────────────────────────────────┐ │
+       │ │ [, ]   : position on drive-name                            │ │
+       │ │ other  : speed search (Ctrl-L:Next match)                  │ │
+       │ │ S-Char : Change Drive    (ex:Shift-A,B,C,...)              │ │
+       │ │ .      : to parent/upper directory                         │ │
+       │ │ \      : to root directory                                 │ │
+══════ │                                                                │ ══════
+    3  └────────────────────────────────────────────────────────────────┘     Q
+Directory│26-10-20│22:55│....│ 26-10-20│TUE│10:59:29pm │F10=MCD│F11=QCD│F12=Menu

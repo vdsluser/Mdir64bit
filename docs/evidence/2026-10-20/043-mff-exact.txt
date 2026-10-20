@@ -1,0 +1,25 @@
+ MFF 3.10 │                                                           │ F1=Help
+                                                                  [            ]
+ALPHA    TXT         14 26-10-20 22:55:22 A___ C:\TEST\DST --------------------
+BETA     TXT         13 26-10-20 22:55:22 A___
+ALPHA    TXT         14 26-10-20 22:55:22 A___ C:\TEST\SRC --------------------
+BETA     TXT         13 26-10-20 22:55:22 A___
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\TEST\DST\ALPHA.TXT                                              [    1/    4]
+      4 File            54 Bytes │x│

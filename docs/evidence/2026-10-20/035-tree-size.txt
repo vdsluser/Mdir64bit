@@ -1,0 +1,25 @@
+                         MdirIII Change Directory
+
+  \ ┬─MDIR
+    ├─TEMP
+    └─TEST────────┬─DST
+                  └─SRC───────────RENAMED
+               ┌────────────────────────────────────────────────┐
+               │                    Tree Size                   │
+               │                                                │
+               │                   C:\TEST\SRC                  │
+               │                                                │
+               │    Number of files  :               3 Files    │
+               │    Number of SubDir :               1 Dirs     │
+               │    Size of files    :              37 Bytes    │
+               │    Allocation space :          65,536 Bytes    │
+               │    Total space      :     536,821,760 Bytes    │
+               │    Free  space      :      67,108,864 Bytes    │
+               │    Allocation unit  :          16,384 Bytes    │
+               └────────────────────────────────────────────────┘
+
+
+
+
+ C:\TEST\SRC                                                      [            ]
+F1-Help│F2-Rescan│F3-Drive│F4-Move│F5-Copy│F6-Ren│F7-Make│F8-Del│F9-Size│F11-QCD

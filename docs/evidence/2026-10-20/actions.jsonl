@@ -1,0 +1,74 @@
+{"case": "015-debug-f12", "keys": ["f12"], "time": 1792504764.0810523, "method": "BIOS keyboard queue via debugger"}
+{"case": "016-debug-escape", "keys": ["esc"], "time": 1792504770.820097, "method": "BIOS keyboard queue via debugger"}
+{"case": "017-relaunch", "keys": ["text:C:\\MDIR\\M /X", "enter"], "time": 1792504788.262382, "method": "BIOS keyboard queue via debugger"}
+{"case": "018-main-settled", "keys": [], "time": 1792504793.1421983, "method": "BIOS keyboard queue via debugger"}
+{"case": "019-bios-menu", "keys": ["f12"], "time": 1792504797.3144617, "method": "BIOS keyboard queue via debugger"}
+{"case": "020-help", "keys": ["esc", "f1"], "time": 1792504806.8111513, "method": "BIOS keyboard queue via debugger"}
+{"case": "021-name-sort", "keys": ["esc", "alt-n"], "time": 1792504811.2368436, "method": "BIOS keyboard queue via debugger"}
+{"case": "022-name-sort-single", "keys": ["alt-n"], "time": 1792504820.0331929, "method": "BIOS keyboard queue via debugger"}
+{"case": "023-select-one", "keys": ["down", "space"], "time": 1792504830.0149171, "method": "BIOS keyboard queue via debugger"}
+{"case": "024-copy-dialog", "keys": ["alt-c"], "time": 1792504833.6519725, "method": "BIOS keyboard queue via debugger"}
+{"case": "025-copy-target-drive", "keys": ["text:c"], "time": 1792504838.7722287, "method": "BIOS keyboard queue via debugger"}
+{"case": "026-copy-conflict", "keys": ["up", "enter"], "time": 1792504844.9614363, "method": "BIOS keyboard queue via debugger"}
+{"case": "027-copy-cancel", "keys": ["esc"], "time": 1792504850.1480062, "method": "BIOS keyboard queue via debugger"}
+{"case": "028-copy-beta", "keys": ["alt-c"], "time": 1792504857.2083962, "method": "BIOS keyboard queue via debugger"}
+{"case": "029-copy-beta-target", "keys": ["text:c", "up", "enter"], "time": 1792504863.5232522, "method": "BIOS keyboard queue via debugger"}
+{"case": "030-mkdir-dialog", "keys": ["alt-k"], "time": 1792504868.531639, "method": "BIOS keyboard queue via debugger"}
+{"case": "031-mkdir-created", "keys": ["text:NEWDIR", "enter"], "time": 1792504873.3783407, "method": "BIOS keyboard queue via debugger"}
+{"case": "032-rename-dialog", "keys": ["alt-r"], "time": 1792504877.1926968, "method": "BIOS keyboard queue via debugger"}
+{"case": "033-renamed", "keys": ["text:RENAMED", "enter"], "time": 1792504882.6249611, "method": "BIOS keyboard queue via debugger"}
+{"case": "034-mcd", "keys": ["f10"], "time": 1792504890.1456175, "method": "BIOS keyboard queue via debugger"}
+{"case": "035-tree-size", "keys": ["hex:4300"], "time": 1792504897.5640864, "method": "BIOS keyboard queue via debugger"}
+{"case": "036-qcd", "keys": ["esc", "esc", "f11"], "time": 1792504902.2727904, "method": "BIOS keyboard queue via debugger"}
+{"case": "037-qcd-edit", "keys": ["hex:1c0a"], "time": 1792504906.6533751, "method": "BIOS keyboard queue via debugger"}
+{"case": "038-qcd-saved", "keys": ["enter"], "time": 1792504911.5520842, "method": "BIOS keyboard queue via debugger"}
+{"case": "039-mff-launch", "keys": ["esc", "alt-i"], "time": 1792504919.9228444, "method": "BIOS keyboard queue via debugger"}
+{"case": "040-mff-results", "keys": ["text:C:\\MDIR\\MFF C: *.TXT", "enter"], "time": 1792504925.0848315, "method": "BIOS keyboard queue via debugger"}
+{"case": "041-mff-exit", "keys": ["esc"], "time": 1792504935.4695385, "method": "BIOS keyboard queue via debugger"}
+{"case": "042-mff-edit", "keys": ["alt-i", "hex:1519", "text:C:\\MDIR\\MFF C: *.TXT"], "time": 1792504943.283536, "method": "BIOS keyboard queue via debugger"}
+{"case": "043-mff-exact", "keys": ["enter"], "time": 1792504947.0963223, "method": "BIOS keyboard queue via debugger"}
+{"case": "044-mff-location", "keys": ["enter"], "time": 1792504951.1936202, "method": "BIOS keyboard queue via debugger"}
+{"case": "045-mff-location-confirm", "keys": ["text:y"], "time": 1792504955.2804155, "method": "BIOS keyboard queue via debugger"}
+{"case": "046-viewer", "keys": ["down", "alt-v"], "time": 1792504961.7288218, "method": "BIOS keyboard queue via debugger"}
+{"case": "048-vv-block-return", "keys": ["enter"], "time": 1792504978.445992, "method": "BIOS keyboard queue via debugger"}
+{"case": "049-mset-launch", "keys": ["ctrl-f12"], "time": 1792504984.532373, "method": "BIOS keyboard queue via debugger"}
+{"case": "051-mset-menu", "keys": ["down"], "time": 1792504991.6421301, "method": "BIOS keyboard queue via debugger"}
+{"case": "053-mset-program", "keys": ["right"], "time": 1792504997.0846057, "method": "BIOS keyboard queue via debugger"}
+{"case": "055-mset-main", "keys": ["right"], "time": 1792505002.6671383, "method": "BIOS keyboard queue via debugger"}
+{"case": "057-mset-mcd", "keys": ["right"], "time": 1792505008.174599, "method": "BIOS keyboard queue via debugger"}
+{"case": "059-mset-other", "keys": ["right"], "time": 1792505014.0657783, "method": "BIOS keyboard queue via debugger"}
+{"case": "061-mset-colors", "keys": ["right"], "time": 1792505019.8721128, "method": "BIOS keyboard queue via debugger"}
+{"case": "063-mset-time-toggle", "keys": ["left", "down", "down", "down", "down", "down", "enter"], "time": 1792505036.367984, "method": "BIOS keyboard queue via debugger"}
+{"case": "065-mset-save-prompt", "keys": ["alt-x"], "time": 1792505042.8729863, "method": "BIOS keyboard queue via debugger"}
+{"case": "067-mset-save", "keys": ["enter"], "time": 1792505047.645887, "method": "BIOS keyboard queue via debugger"}
+{"case": "068-attributes", "keys": ["ctrl-z"], "time": 1792505066.4566395, "method": "BIOS keyboard queue via debugger"}
+{"case": "069-readonly-set", "keys": ["text:r", "enter"], "time": 1792505072.3377333, "method": "BIOS keyboard queue via debugger"}
+{"case": "070-delete-readonly", "keys": ["hex:2000"], "time": 1792505076.2090514, "method": "BIOS keyboard queue via debugger"}
+{"case": "071-delete-readonly-extra", "keys": ["text:y"], "time": 1792505084.3237422, "method": "BIOS keyboard queue via debugger"}
+{"case": "072-delete-cancel", "keys": ["esc"], "time": 1792505088.928447, "method": "BIOS keyboard queue via debugger"}
+{"case": "073-qcd-jump", "keys": ["hex:5400"], "time": 1792505096.479901, "method": "BIOS keyboard queue via debugger"}
+{"case": "074-move-dialog", "keys": ["text:g", "alt-m"], "time": 1792505101.3008635, "method": "BIOS keyboard queue via debugger"}
+{"case": "075-move-complete", "keys": ["text:c", "up", "enter"], "time": 1792505108.0296812, "method": "BIOS keyboard queue via debugger"}
+{"case": "076-description-dialog", "keys": ["hex:1c00"], "time": 1792505117.7515838, "method": "BIOS keyboard queue via debugger"}
+{"case": "077-description-saved", "keys": ["text:ALPHA NOTE", "enter"], "time": 1792505122.6678846, "method": "BIOS keyboard queue via debugger"}
+{"case": "078-description-long", "keys": ["hex:1c00", "hex:1519", "text:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "enter"], "time": 1792505136.7186875, "method": "BIOS keyboard queue via debugger"}
+{"case": "079-archive-open", "keys": ["hex:5400", "text:test", "enter"], "time": 1792505147.7519364, "method": "BIOS keyboard queue via debugger"}
+{"case": "081-return-for-restart", "keys": ["enter", "alt-x"], "time": 1792505187.3235571, "method": "BIOS keyboard queue via debugger"}
+{"case": "082-restart-restored", "keys": [], "time": 1792505198.0468168, "method": "BIOS keyboard queue via debugger"}
+{"case": "083-zip-list", "keys": ["text:test", "enter"], "time": 1792505202.2154992, "method": "BIOS keyboard queue via debugger"}
+{"case": "084-zip-list-confirm", "keys": ["enter"], "time": 1792505208.9326236, "method": "BIOS keyboard queue via debugger"}
+{"case": "085-archive-last-screen", "keys": ["hex:1414"], "time": 1792505214.9133523, "method": "BIOS keyboard queue via debugger"}
+{"case": "086-mf-launch", "keys": ["enter", "hex:2106"], "time": 1792505223.6793592, "method": "BIOS keyboard queue via debugger"}
+{"case": "087-mf-no-media", "keys": ["hex:5200"], "time": 1792505230.7040772, "method": "BIOS keyboard queue via debugger"}
+{"case": "088-mcopy-launch", "keys": ["enter", "alt-x", "hex:2e03"], "time": 1792505237.7744706, "method": "BIOS keyboard queue via debugger"}
+{"case": "089-mcopy-format-toggle", "keys": ["text:f"], "time": 1792505243.057301, "method": "BIOS keyboard queue via debugger"}
+{"case": "090-mcopy-format-off", "keys": ["down", "enter"], "time": 1792505248.574937, "method": "BIOS keyboard queue via debugger"}
+{"case": "091-mcopy-read-no-media", "keys": ["text:r"], "time": 1792505253.669777, "method": "BIOS keyboard queue via debugger"}
+{"case": "092-command-input", "keys": ["enter", "alt-x", "text:?"], "time": 1792505266.0925431, "method": "BIOS keyboard queue via debugger"}
+{"case": "093-command-variable", "keys": ["text:ECHO %F > C:\\TEST\\ARG.TXT"], "time": 1792505274.9537663, "method": "BIOS keyboard queue via debugger"}
+{"case": "094-command-variable-executed", "keys": ["enter"], "time": 1792505279.1500394, "method": "BIOS keyboard queue via debugger"}
+{"case": "095-simple-variables", "keys": ["text:?", "hex:1519", "text:ECHO [!.!][%F][!,][,!][!\\][%A][!:][%M][%L] > C:\\TEST\\VARS.TXT"], "time": 1792505295.5730877, "method": "BIOS keyboard queue via debugger"}
+{"case": "096-simple-variables-result", "keys": ["enter"], "time": 1792505300.5221214, "method": "BIOS keyboard queue via debugger"}
+{"case": "097-command-history", "keys": ["text:?", "hex:4900"], "time": 1792505312.086896, "method": "BIOS keyboard queue via debugger"}
+{"case": "098-history-cancel", "keys": ["esc", "esc"], "time": 1792505460.7134643, "method": "BIOS keyboard queue via debugger"}
+{"case": "099-exit-original", "keys": ["alt-x"], "time": 1792505461.728825, "method": "BIOS keyboard queue via debugger"}

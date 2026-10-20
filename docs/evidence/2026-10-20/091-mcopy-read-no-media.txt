@@ -1,0 +1,25 @@
+
+
+                             MdirIII DiskCopy 3.10
+
+
+              DiskCopy         Ins                  INFO
+             ──────────────────────
+              Read               R          SOURCE Drive   -  A:
+              Write              W          TARGET Drive   -  A:
+             ──────────────────────        ──────────────────────
+              Source            F3          Write          - OFF
+              Target            F4          Format         - OFF
+              Number of Co                            ───────────
+             ─────────────           ERROR            Copy - 1
+              Format
+             ─────────────    Register version only
+              Quit                                     COMPUTER
+
+
+
+
+
+
+
+                                               │  -READ │ o -FORMAT │ O -WRITE

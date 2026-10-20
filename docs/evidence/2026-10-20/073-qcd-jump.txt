@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C:\TEST\SRC\*.*                                            Volume [C_DRIVE]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 26-10-20 22:55
+RENAMED      [ SubDir ] 26-10-20 23:01
+GAMMA    DAT         10 26-10-20 22:55
+ALPHA    TXT         14 26-10-20 22:55
+BETA     TXT         13 26-10-20 22:55
+[-A-]
+[-B-]
+[-C-] HDD C_DRIVE
+[-Z-] HDD DOSBOX-X
+
+
+
+
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    3 File    2 Dir            37 Byte     67,108,864(12%)byte free (511M)    Q
+Directory│26-10-20│22:55│....│ 26-10-20 │TUE│ 23:03:08 │F10=MCD│F11=QCD│F12=Menu
