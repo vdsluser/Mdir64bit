@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C:\TEST\SRC\*.*                                           Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 26-10-21  6:36a
+ALPHA    TXT         14 26-10-21  6:36a
+BETA     TXT         13 26-10-21  6:36a
+WIDE     TXT        212 26-10-21  6:37a
+[-A-]
+[-B-]
+[-C-] HDD MDIRTEST
+[-Z-] HDD DOSBOX ┌────────────────────────────────────────────┐
+                 │        Mdir III 3.10, MDIR COMPUTER        │
+                 │                                            │
+                 │                Registered to               │
+                 │  MDIR64BIT RESEARCH [2560 4080-8040-XXXX]  │
+                 └────────────────────────────────────────────┘
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    3 File    1 Dir           239 Byte        774,144(53%)byte free (1420K)   Q
+Directory│26-10-21│ 6:36│....│ 26-10-21│WED│ 8:54:05am │F10=MCD│F11=QCD│F12=Menu

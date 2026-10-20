@@ -1,6 +1,6 @@
 # 원본 관찰 도구
 
-Python 3 표준 라이브러리만 사용한다. 원본 자료는 저장소에 포함하지 않으므로 로컬 `mdir/`에 별도로 준비한다. 원본을 수정하거나 등록 제한을 우회하는 도구가 아니다.
+공개 Python 도구는 표준 라이브러리만 사용한다. 원본 자료는 저장소에 포함하지 않으므로 로컬 `mdir/`에 별도로 준비한다. 원본 실행 파일을 패치하지 않는다. 등록번호 복원 도구와 검증 범위는 [등록 분석 보고서](../../docs/REGISTRATION_ANALYSIS.ko.md)를 따른다.
 
 1. 저장소 루트에서 `python tools/analysis/prepare_baseline.py --name run-02`를 실행한다. 새 실행 폴더를 만들며 기존 폴더를 덮어쓰지 않는다. 에뮬레이터 ZIP이 없다면 `--download`를 명시한다. 고정된 공식 릴리스의 SHA-256을 대조한다.
 2. 출력된 새 실행 경로를 `MDIR_ANALYSIS_DIR` 환경변수로 지정한다. 예: PowerShell에서 `$env:MDIR_ANALYSIS_DIR = (Resolve-Path analysis-local/run-02).Path`.

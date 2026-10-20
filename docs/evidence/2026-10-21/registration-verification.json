@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-21",
+  "emulator": "DOSBox-X 2026.10.01 SDL1 x64",
+  "synthetic": {
+    "name": "MDIR64BIT RESEARCH",
+    "password": "2026",
+    "serial": "2560-4080-8040-0119",
+    "checksum": 64884
+  },
+  "positive": {
+    "registration_file_size": 685,
+    "registration_file_sha256": "8bda199ee72b9618e35cc68302042d72f02e30363d01158598b24a3e53959c60",
+    "fresh_main_registered": true,
+    "vv_rendered_alpha_original": true
+  },
+  "negative": {
+    "serial": "2560-4080-8040-0001",
+    "registration_file_exists_after_mset": false
+  },
+  "mf_mcopy": {
+    "credential_source": "bundled candidate 2, original text withheld",
+    "new_generated_serial_retested_with_mf_mcopy": false,
+    "image_bytes": 1474560,
+    "boot_signature": "55aa",
+    "bytes_per_sector": 512,
+    "a_sha256": "c0090109f87740bd18ceec670967c08de2999facbada0d1bb017124728e357f0",
+    "b_sha256": "c0090109f87740bd18ceec670967c08de2999facbada0d1bb017124728e357f0",
+    "byte_equal": true,
+    "physical_device_used": false
+  },
+  "scope": "Partial observations; not complete feature verification"
+}
