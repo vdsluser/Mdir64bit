@@ -1,42 +1,42 @@
 {
   "child-mem.txt": {
-    "bytes": 1149,
-    "sha256": "8608feb6b6e9c226548a4028ff16214e25bb5e396f5c7acdabf9e2ce9c64b0f2"
+    "bytes": 1123,
+    "sha256": "014b88105272b9b2f0392e4d1aff0b0c3139d3bed943bd9be3be3f1b20953ea2"
   },
   "child-test.bat.txt": {
-    "bytes": 85,
-    "sha256": "2f6901fde4e7e7cfd86a5609c65459ac3e1b0304f0b9cab5207c081b4dd533e0"
+    "bytes": 81,
+    "sha256": "a65a01d4bd12e50b2ed639c2ea798989409d9a5e4de17f0d24ab9aa7a6b00ead"
   },
   "e010-parent-ready.txt": {
-    "bytes": 1118,
-    "sha256": "a9354a1546ad3d0f0daca135dfd566db109f359d4ac4668977e1a8e9d23f8815"
+    "bytes": 1094,
+    "sha256": "076a4304d6f93129bbfa9cdb62d21424951b02b2eb4def2c8cec4d935e6b1f95"
   },
   "e012-parent-after.txt": {
-    "bytes": 1118,
-    "sha256": "8987cce5886761ec8db9ca64f692829555d34622c75f00f799a83fe9ba1192c3"
+    "bytes": 1094,
+    "sha256": "a3793956b86aabb3170c6c5704fa1880aea929261d8a058fb638d3f53014a38e"
   },
   "e013-parent-exit.txt": {
-    "bytes": 1017,
-    "sha256": "2bfa6a69923e3ebe8c982809137b41b8c5e5e40794e6634ee14c1e469396ea3a"
+    "bytes": 993,
+    "sha256": "3bc58325c4b3e6f0a11420433f1f5c8a285dca1a49431601c6212236f2bf6cdf"
   },
   "e029-direct-command.txt": {
-    "bytes": 937,
-    "sha256": "b3451f7df0da76d6db1670ba6b05ddb0112c01d9121a8064320804d5041017ef"
+    "bytes": 913,
+    "sha256": "29612b0ef203744f45d3f78191cf8ab172cc9cd401ca810bac7133909ef25eaa"
   },
   "parent-test.bat.txt": {
-    "bytes": 223,
-    "sha256": "22f9e0c0c85b9a6890e8e63901e1bba91b3fa969e2eb9c046b071dfb3ee27f6c"
+    "bytes": 216,
+    "sha256": "25b35ea0eb3ebfadc4c4d1cc114516fce2c7e3e2935618cdc8456b1818dc483f"
   },
   "status.json": {
-    "bytes": 1260,
-    "sha256": "6ec7dc3a8d5835451d52c99b855ec7d66d26f9dd0a71d764f2307c45c88cf853"
+    "bytes": 1222,
+    "sha256": "4d547c9a0e1ce7fba119f840b389f8cb98af9388c4f22cac5284eb66537b895e"
   },
   "verification.json": {
-    "bytes": 4124,
-    "sha256": "24e36f35c7e0732215218de1d89222390866d732ad27d874a8dd3d2a57b27e9a"
+    "bytes": 4022,
+    "sha256": "c667120b944c08077f5ddd842b6eecc54641568d19f460e469014c72c6b19207"
   },
   "x-mem.txt": {
-    "bytes": 1287,
-    "sha256": "0e477fee4200bb2dd0963e359c0a79842dbcd26ce074495aea8e0b676906fc01"
+    "bytes": 1259,
+    "sha256": "810e388180c102e685e5cf96ddb82766f11f5ea6884a0530a47708f418c4c13b"
   }
 }
