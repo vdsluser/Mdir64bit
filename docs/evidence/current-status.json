@@ -12,6 +12,7 @@
     "docs/evidence/2026-10-21/conflict-05/status.json",
     "docs/evidence/2026-10-21/description-06/status.json",
     "docs/evidence/2026-10-22/partial-07/status.json",
+    "docs/evidence/2026-10-22/shell-08/status.json",
     "docs/evidence/2026-10-21/registration-verification.json"
   ],
   "historical_registered_blockers": 8,
@@ -893,7 +894,7 @@
       "id": "CMD-001",
       "title": "명령줄",
       "status": "PARTIAL",
-      "scope": "Swap execution and separately invoked generated batch",
+      "scope": "Raw shell vs Mdir variable controls; parent-batch command, working directory, resume and parent continuation observed",
       "observations": [
         {
           "date": "2026-10-20",
@@ -914,6 +915,20 @@
           "scope": "Swap execution and separately invoked generated batch",
           "evidence": [
             "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "source": "docs/evidence/2026-10-22/shell-08/status.json",
+          "report": "docs/SHELL_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Raw shell vs Mdir variable controls; parent-batch command, working directory, resume and parent continuation observed",
+          "evidence": [
+            "docs/evidence/2026-10-22/shell-08/parent-test.bat.txt",
+            "docs/evidence/2026-10-22/shell-08/child-test.bat.txt",
+            "docs/evidence/2026-10-22/shell-08/e012-parent-after.txt",
+            "docs/evidence/2026-10-22/shell-08/e029-direct-command.txt",
+            "docs/evidence/2026-10-22/shell-08/verification.json"
           ]
         }
       ],
@@ -3469,7 +3484,7 @@
       "id": "VAR-011",
       "title": "`%M`",
       "status": "DIFF",
-      "scope": "ECHO의 %M 치환 결과 빈 값; 문서 기대 C:\\MDIR\\와 다름. 원인 미확정",
+      "scope": "Single %M/%m correct; same-expression predicted expanded length 69/70 includes path while 71/72 omits it; original combination reproduced in FAT, no-REG FAT and folder",
       "observations": [
         {
           "date": "2026-10-20",
@@ -3479,6 +3494,16 @@
           "scope": "ECHO의 %M 치환 결과 빈 값; 문서 기대 C:\\MDIR\\와 다름. 원인 미확정",
           "evidence": [
             "docs/evidence/2026-10-20/vars.txt"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "source": "docs/evidence/2026-10-22/shell-08/status.json",
+          "report": "docs/SHELL_RUNTIME_FINDINGS.ko.md",
+          "status": "DIFF",
+          "scope": "Single %M/%m correct; same-expression predicted expanded length 69/70 includes path while 71/72 omits it; original combination reproduced in FAT, no-REG FAT and folder",
+          "evidence": [
+            "docs/evidence/2026-10-22/shell-08/verification.json"
           ]
         }
       ],
@@ -3541,7 +3566,7 @@
       "id": "VAR-015",
       "title": "`%B`",
       "status": "PARTIAL",
-      "scope": "Explicit %B under /X and without /X; automatic chaining unresolved",
+      "scope": "/X keeps resident M despite %B; parent-batch full execution ran once and returned same-session; interactive direct execution left pending batch",
       "observations": [
         {
           "date": "2026-10-20",
@@ -3559,6 +3584,18 @@
           "scope": "Explicit %B under /X and without /X; automatic chaining unresolved",
           "evidence": [
             "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "source": "docs/evidence/2026-10-22/shell-08/status.json",
+          "report": "docs/SHELL_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "/X keeps resident M despite %B; parent-batch full execution ran once and returned same-session; interactive direct execution left pending batch",
+          "evidence": [
+            "docs/evidence/2026-10-22/shell-08/x-mem.txt",
+            "docs/evidence/2026-10-22/shell-08/child-mem.txt",
+            "docs/evidence/2026-10-22/shell-08/verification.json"
           ]
         }
       ],

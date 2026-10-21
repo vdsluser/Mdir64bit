@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-22",
+  "checks": {
+    "upper_m_correct": true,
+    "lower_m_correct": true,
+    "question_m_correct": true,
+    "env_m_does_not_override": true,
+    "filename_control": true,
+    "raw_shell_literal": true,
+    "closed_shell_env": true,
+    "combo_m_empty": true,
+    "unregistered_image_no_reg": true,
+    "unregistered_simple_m_correct": true,
+    "unregistered_combo_m_empty": true,
+    "folder_combo_m_empty": true,
+    "short_pairs_m_correct": true,
+    "length_q_qq_contains_m": true,
+    "length_qqq_min6_omits_m": true,
+    "controlled_expected_lengths": true,
+    "parent_child_runs_once": true,
+    "parent_resumed": true,
+    "parent_has_no_generated_batch_call": true,
+    "parent_temp_command_cleaned": true,
+    "child_working_directory": true,
+    "x_b_keeps_resident_m": true,
+    "parent_full_has_no_m_module": true,
+    "direct_did_not_execute_command": true,
+    "direct_pending_command_has_b_removed": true,
+    "original_main_and_registration_unchanged": true
+  },
+  "outputs": {
+    "UPPER.TXT": "L[C:\\MDIR\\]R\r\n",
+    "LOWER.TXT": "L[C:\\MDIR\\]R\r\n",
+    "FCTRL.TXT": "L[PARENT.BAT]R\r\n",
+    "RAW.TXT": "L[%M]R\r\n",
+    "RAWENV.TXT": "L[%M]R\r\n",
+    "CLOSED.TXT": "L[ENV_VALUE]R\r\n",
+    "MDIRENV.TXT": "L[C:\\MDIR\\]R\r\n",
+    "COMBO.TXT": "[PARENT.BAT][PARENT.BAT][PARENT][BAT][C:\\CASE8\\][CASE8][C:][][PARENT.BAT]\r\n",
+    "QUEST.TXT": "L[C:\\MDIR\\]R\r\n",
+    "UNREG.TXT": "L[C:\\MDIR\\]R\r\n",
+    "UNCOMBO.TXT": "[PARENT.BAT][PARENT.BAT][PARENT][BAT][C:\\CASE8\\][CASE8][C:][][PARENT.BAT]\r\n"
+  },
+  "folder_pair_outputs": {
+    "FIRST.TXT": "[][PARENT.BAT][PARENT.BAT][PARENT][BAT][C:\\CASE8][CASE8][C:][PARENT.BAT]\n",
+    "FOLCOMB.TXT": "[PARENT.BAT][PARENT.BAT][PARENT][BAT][C:\\CASE8\\][CASE8][C:][][PARENT.BAT]\n",
+    "MIN5.TXT": "[PARENT.BAT][PARENT][BAT][C:\\CASE8\\][C:\\MDIR\\]\n",
+    "MIN6.TXT": "[PARENT.BAT][PARENT][BAT][C:\\CASE8\\][CASE8][]\n",
+    "MIN7.TXT": "[PARENT.BAT][PARENT][BAT][C:\\CASE8\\][CASE8][C:][]\n",
+    "PAD0.TXT": "[C:\\MDIR\\]\n",
+    "PAD30.TXT": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX[C:\\MDIR\\]\n",
+    "PAIR1.TXT": "[C:\\MDIR\\][PARENT.BAT]\n",
+    "PAIR10.TXT": "[PARENT.BAT][PARENT.BAT][C:\\MDIR\\]\n",
+    "PAIR2.TXT": "[PARENT.BAT][C:\\MDIR\\]\n",
+    "PAIR3.TXT": "[C:\\MDIR\\][PARENT.BAT]\n",
+    "PAIR4.TXT": "[CASE8][C:\\MDIR\\]\n",
+    "PAIR5.TXT": "[C:][C:\\MDIR\\]\n",
+    "PAIR6.TXT": "[C:\\CASE8\\][C:\\MDIR\\]\n",
+    "PAIR7.TXT": "[PARENT][C:\\MDIR\\]\n",
+    "PAIR8.TXT": "[BAT][C:\\MDIR\\]\n",
+    "PAIR9.TXT": "[PARENT.BAT][C:\\MDIR\\]\n",
+    "Q.TXT": "[PARENT.BAT][PARENT][BAT][C:\\CASE8\\][CASE8][C:\\MDIR\\]\n",
+    "QQ.TXT": "[PARENT.BAT][PARENT][BAT][C:\\CASE8\\][CASE8][C:\\MDIR\\]\n",
+    "QQQ.TXT": "[PARENT.BAT][PARENT][BAT][C:\\CASE8\\][CASE8][]\n",
+    "TAIL.TXT": "[PARENT.BAT][PARENT][BAT][C:\\MDIR\\]\n",
+    "TRI1.TXT": "[C:\\CASE8\\][CASE8][C:\\MDIR\\]\n",
+    "TRI2.TXT": "[CASE8][C:\\CASE8\\][C:\\MDIR\\]\n",
+    "TRI3.TXT": "[C:\\MDIR\\][C:\\CASE8\\][CASE8]\n"
+  },
+  "expected_fully_expanded_command_lengths": {
+    "Q": 69,
+    "QQ": 70,
+    "QQQ": 71,
+    "MIN6": 72
+  },
+  "parent": {
+    "run_log": "RUN\r\n",
+    "return_log": "ZERO\r\n",
+    "working_directory": "C:\\CASE8\r\n",
+    "pending_command_after_parent": false
+  },
+  "direct_pending_batch": "ECHO DIRECT > C:\\DIRECT.TXT \r\n",
+  "excluded_probe": "PAD60 expected output was absent; not counted as a confirmed substitution result",
+  "snapshots": {
+    "drive-before.img": {
+      "bytes": 1474560,
+      "sha256": "760b68235fbf9b354f082cb99126b1bf348d52015b8d691e87e5e76b690f9207"
+    },
+    "drive-after-parent.img": {
+      "bytes": 1474560,
+      "sha256": "4f839c84e0ee5cd4c43ff3c195057fa3a20786c1b0dbf35af5f321fb303d4852"
+    },
+    "drive.img": {
+      "bytes": 1474560,
+      "sha256": "b1326fb5a68e2fc5f9f2ae9dc71c017099462839958a1747a548dd88b9b56142"
+    },
+    "unregistered.img": {
+      "bytes": 1474560,
+      "sha256": "7d254b4b4d2d0c3aac98ec699f675e988ec5395f05361b702771db578571883b"
+    }
+  }
+}

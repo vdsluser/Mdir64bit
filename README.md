@@ -18,6 +18,7 @@ Mdir III의 사용 흐름을 분석하여 Windows 11 x64용 파일 관리자로 
 - [파일 충돌·진행 후 취소·폴더 주석 관찰](docs/CONFLICT_RUNTIME_FINDINGS.ko.md)
 - [중복 주석과 All·Skip all·Newer 정책 관찰](docs/DESCRIPTION_RULES.ko.md)
 - [기존 대상 유실·이동 취소·용량 부족 관찰](docs/PARTIAL_FAILURE_FINDINGS.ko.md)
+- [명령 변수의 길이 민감 사례와 배치 자동 재진입](docs/SHELL_RUNTIME_FINDINGS.ko.md)
 
 2026-10-22 기준: 등록·VV·파일/주석·MCD·메모리 실행·MF/MCOPY의 후속 결과를 기존 173개 기능에 통합했습니다. 기존 대상 덮어쓰기·이동 중 취소에서 대상 파일 유실과 남은 주석을 확인해 데이터 보호 검토 항목에 추가했습니다. 현재 판정은 위 통합 상태를 우선하며 최초 추적표와 실행 이력은 보존합니다. P0는 진행 중이고, P1 진입 조건은 아직 모두 충족하지 않았습니다. 전체 기능 검증 완료나 Windows판 구현 완료를 뜻하지 않습니다.
 

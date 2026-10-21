@@ -59,7 +59,7 @@
 | RUN-003 | 28개 펑션키 | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | RUN-004 | 확장자 연결 | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | RUN-005 | 마지막 실행 화면 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/085-archive-last-screen.txt) | — |
-| CMD-001 | 명령줄 | 부분 관찰 | [보고서](REGISTERED_OPERATIONS.ko.md) · [증거 1](../docs/evidence/2026-10-21/registered-03/file-verification.json) | P0-04 |
+| CMD-001 | 명령줄 | 부분 관찰 | [보고서](SHELL_RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-22/shell-08/parent-test.bat.txt) · [증거 2](../docs/evidence/2026-10-22/shell-08/child-test.bat.txt) · [증거 3](../docs/evidence/2026-10-22/shell-08/e012-parent-after.txt) · [증거 4](../docs/evidence/2026-10-22/shell-08/e029-direct-command.txt) · [증거 5](../docs/evidence/2026-10-22/shell-08/verification.json) | P0-04 |
 | CMD-002 | 입력 편집/삽입 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/042-mff-edit.txt) | — |
 | CMD-003 | 명령 이력 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/097-command-history.txt) | — |
 | CLI-001 | 실행 인자 | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
@@ -185,11 +185,11 @@
 | VAR-008 | `!\!.!` | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | VAR-009 | `%D` | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | VAR-010 | `%R` | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
-| VAR-011 | `%M` | 문서와 차이 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/vars.txt) | P0-01 |
+| VAR-011 | `%M` | 문서와 차이 | [보고서](SHELL_RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-22/shell-08/verification.json) | P0-01 |
 | VAR-012 | `%1-%0` | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | VAR-013 | `%[xxx]` | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | VAR-014 | `%;` | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
-| VAR-015 | `%B` | 부분 관찰 | [보고서](REGISTERED_OPERATIONS.ko.md) · [증거 1](../docs/evidence/2026-10-21/registered-03/file-verification.json) | P0-04 |
+| VAR-015 | `%B` | 부분 관찰 | [보고서](SHELL_RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-22/shell-08/x-mem.txt) · [증거 2](../docs/evidence/2026-10-22/shell-08/child-mem.txt) · [증거 3](../docs/evidence/2026-10-22/shell-08/verification.json) | P0-04 |
 | VAR-016 | `%N` | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | VAR-017 | `%P` | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | VAR-018 | `%$` | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |

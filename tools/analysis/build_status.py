@@ -18,6 +18,7 @@ SUPPLEMENTS = [
     ('docs/evidence/2026-10-21/conflict-05/status.json', 'docs/CONFLICT_RUNTIME_FINDINGS.ko.md'),
     ('docs/evidence/2026-10-21/description-06/status.json', 'docs/DESCRIPTION_RULES.ko.md'),
     ('docs/evidence/2026-10-22/partial-07/status.json', 'docs/PARTIAL_FAILURE_FINDINGS.ko.md'),
+    ('docs/evidence/2026-10-22/shell-08/status.json', 'docs/SHELL_RUNTIME_FINDINGS.ko.md'),
 ]
 JSON_OUT = 'docs/evidence/current-status.json'
 MD_OUT = 'docs/CURRENT_STATUS.ko.md'

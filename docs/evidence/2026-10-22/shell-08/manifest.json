@@ -1,0 +1,42 @@
+{
+  "child-mem.txt": {
+    "bytes": 1149,
+    "sha256": "8608feb6b6e9c226548a4028ff16214e25bb5e396f5c7acdabf9e2ce9c64b0f2"
+  },
+  "child-test.bat.txt": {
+    "bytes": 85,
+    "sha256": "2f6901fde4e7e7cfd86a5609c65459ac3e1b0304f0b9cab5207c081b4dd533e0"
+  },
+  "e010-parent-ready.txt": {
+    "bytes": 1118,
+    "sha256": "a9354a1546ad3d0f0daca135dfd566db109f359d4ac4668977e1a8e9d23f8815"
+  },
+  "e012-parent-after.txt": {
+    "bytes": 1118,
+    "sha256": "8987cce5886761ec8db9ca64f692829555d34622c75f00f799a83fe9ba1192c3"
+  },
+  "e013-parent-exit.txt": {
+    "bytes": 1017,
+    "sha256": "2bfa6a69923e3ebe8c982809137b41b8c5e5e40794e6634ee14c1e469396ea3a"
+  },
+  "e029-direct-command.txt": {
+    "bytes": 937,
+    "sha256": "b3451f7df0da76d6db1670ba6b05ddb0112c01d9121a8064320804d5041017ef"
+  },
+  "parent-test.bat.txt": {
+    "bytes": 223,
+    "sha256": "22f9e0c0c85b9a6890e8e63901e1bba91b3fa969e2eb9c046b071dfb3ee27f6c"
+  },
+  "status.json": {
+    "bytes": 1260,
+    "sha256": "6ec7dc3a8d5835451d52c99b855ec7d66d26f9dd0a71d764f2307c45c88cf853"
+  },
+  "verification.json": {
+    "bytes": 4124,
+    "sha256": "24e36f35c7e0732215218de1d89222390866d732ad27d874a8dd3d2a57b27e9a"
+  },
+  "x-mem.txt": {
+    "bytes": 1287,
+    "sha256": "0e477fee4200bb2dd0963e359c0a79842dbcd26ce074495aea8e0b676906fc01"
+  }
+}

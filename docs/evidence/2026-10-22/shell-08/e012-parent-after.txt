@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C:\CASE8\*.*                                              Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 80-00-00 12:00a
+PARENT   BAT        216 26-10-22  1:23a
+RUN      BAT         81 26-10-22  1:23a
+WRAP     BAT         98 26-10-22  1:23a
+ALPHA    TXT         18 26-10-22  1:23a
+[-A-]
+[-B-]
+[-C-] HDD MDIRTEST
+[-Z-] HDD DOSBOX-X
+
+
+
+
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    4 File    1 Dir           413 Byte        762,368(52%)byte free (1420K)   Q
+Directory│80-00-00│ 0:00│....│ 26-10-22│THU│ 1:23:57am │F10=MCD│F11=QCD│F12=Menu

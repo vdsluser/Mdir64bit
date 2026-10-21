@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-22",
+  "run": "shell-08",
+  "scope": "DOSBox-X specific caller and command boundary samples; no universal limit claimed",
+  "fully_verified_feature_rows": 0,
+  "features": [
+    {
+      "id": "VAR-011",
+      "status": "DIFF",
+      "observed": "Single %M/%m correct; same-expression predicted expanded length 69/70 includes path while 71/72 omits it; original combination reproduced in FAT, no-REG FAT and folder",
+      "evidence": [
+        "verification.json"
+      ]
+    },
+    {
+      "id": "VAR-015",
+      "status": "PARTIAL",
+      "observed": "/X keeps resident M despite %B; parent-batch full execution ran once and returned same-session; interactive direct execution left pending batch",
+      "evidence": [
+        "x-mem.txt",
+        "child-mem.txt",
+        "verification.json"
+      ]
+    },
+    {
+      "id": "CMD-001",
+      "status": "PARTIAL",
+      "observed": "Raw shell vs Mdir variable controls; parent-batch command, working directory, resume and parent continuation observed",
+      "evidence": [
+        "parent-test.bat.txt",
+        "child-test.bat.txt",
+        "e012-parent-after.txt",
+        "e029-direct-command.txt",
+        "verification.json"
+      ]
+    }
+  ]
+}
