@@ -1,0 +1,25 @@
+                         MdirIII Change Directory
+
+  \ ┬─CASE──────────TREE──────────SUB
+    ├─MDIR
+    ├─TEMP
+    └─TEST────────┬─DST
+                  └─SRC
+
+
+
+                   ┌────────────────────────────────────────┐
+                   │                  Error                 │
+                   │                                        │
+                   │    Cannot COPY/MOVE tree into itself   │
+                   └────────────────────────────────────────┘
+
+
+
+
+
+
+
+
+ C:\CASE\TREE                                                     [            ]
+F1-Help│F2-Rescan│        │       │<COPY> │      │F7-Make│      │F9-Size│F11-QCD

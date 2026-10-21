@@ -1,0 +1,25 @@
+                         MdirIII Change Directory
+
+  \ ┬─CASE──────────TREE──────────SUB
+    ├─MDIR
+    ├─TEMP
+    └─TEST────────┬─DST         ──TREE──────────SUB
+                  └─SRC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ C:\TEST\DST                                                      [            ]
+F1-Help│F2-Rescan│F3-Drive│F4-Move│F5-Copy│F6-Ren│F7-Make│F8-Del│F9-Size│F11-QCD

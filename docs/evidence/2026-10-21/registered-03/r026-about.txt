@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C:\CASE\*.*                                               Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 80-00-00 12:00a
+COPY     TXT         14 26-10-21  3:00p copy-comment
+RENAMED  TXT         16 26-10-21  3:00p rename-comment
+[-A-]
+[-B-]
+[-C-] HDD MDIRTEST
+[-D-] HDD MDIRTEST
+[-Z-] HDD DOSBOX ┌────────────────────────────────────────────┐
+                 │        Mdir III 3.10, MDIR COMPUTER        │
+                 │                                            │
+                 │                Registered to               │
+                 │  MDIR64BIT RESEARCH [2560 4080-8040-XXXX]  │
+                 └────────────────────────────────────────────┘
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    2 File    1 Dir            30 Byte        769,024(52%)byte free (1420K)   Q
+       16│26-10-21│15:00│....│ 26-10-21│WED│ 3:02:13pm │F10=MCD│F11=QCD│F12=Menu

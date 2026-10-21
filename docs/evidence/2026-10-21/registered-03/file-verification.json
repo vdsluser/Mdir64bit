@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "copy_content": true,
+    "move_content": true,
+    "rename_content": true,
+    "delete_absent": true,
+    "file_comments": true,
+    "destination_keep": true,
+    "directory_source_removed": true,
+    "tree_copy_INNER.TXT": true,
+    "tree_move_INNER.TXT": true,
+    "tree_copy_DESCRIPT.ION": true,
+    "tree_move_DESCRIPT.ION": true,
+    "tree_copy_SUB/DEEP.TXT": true,
+    "tree_move_SUB/DEEP.TXT": true,
+    "parent_comment_left": true,
+    "registration_unchanged": true,
+    "temporary_command_batch_removed": true
+  },
+  "comments": {
+    "C-before:/CASE/DESCRIPT.ION": {
+      "exists": true,
+      "ascii": "COPY.TXT copy-comment\r\nMOVE.TXT move-comment\r\nRENAME.TXT rename-comment\r\nDELETE.TXT delete-comment\r\nTREE tree-comment\r\n",
+      "sha256": "b1067ef911d8052adfddbe74546a906d01628494912e52d3f0947741d3147511"
+    },
+    "C-after:/CASE/DESCRIPT.ION": {
+      "exists": true,
+      "ascii": "RENAMED.TXT rename-comment\r\nCOPY.TXT copy-comment\r\nTREE tree-comment\r\n",
+      "sha256": "8bc45e826a6d9db50353bf270b04ebef31f457e5564ed68e8ae99da132a99cd2"
+    },
+    "C-after:/TEST/DST/DESCRIPT.ION": {
+      "exists": false,
+      "ascii": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "C-after:/TEST/DST/TREE/DESCRIPT.ION": {
+      "exists": true,
+      "ascii": "INNER.TXT inner-comment\r\n",
+      "sha256": "ec054b82d64f639dcdd010c2a05ea35e1694bc237f742fca16403b63fbf05ead"
+    },
+    "D-after:/DESCRIPT.ION": {
+      "exists": true,
+      "ascii": "COPY.TXT copy-comment\r\n",
+      "sha256": "3528064838cbed56ef6b0c90ec8a64dc8df6cd345164daab0718034f26899384"
+    },
+    "D-after:/DST/DESCRIPT.ION": {
+      "exists": true,
+      "ascii": "KEEP.TXT keep-comment\r\nMOVE.TXT move-comment\r\n",
+      "sha256": "806c3368bf55490520801f1ab2fb99a45088c8d9cde28274dd882e4f283ce354"
+    },
+    "D-after:/DST/TREE/DESCRIPT.ION": {
+      "exists": true,
+      "ascii": "INNER.TXT inner-comment\r\n",
+      "sha256": "ec054b82d64f639dcdd010c2a05ea35e1694bc237f742fca16403b63fbf05ead"
+    }
+  },
+  "memory": {
+    "swap_M_total_bytes": 240,
+    "full_M_module_present": false,
+    "swap_largest_program_bytes": 619808,
+    "full_largest_program_bytes": 622224,
+    "full_batch_execution_after_emulator_restart": true,
+    "command_batch_observed_before_execution": "MEM /C  > C:\\FULL.TXT\r\n"
+  }
+}

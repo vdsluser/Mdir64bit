@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C:\CASE\*.*                                               Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 80-00-00 12:00a
+TREE         [ SubDir ] 26-10-21  3:00p tree-comment
+COPY     TXT         14 26-10-21  3:00p copy-comment
+DELETE   TXT         16 26-10-21  3:00p delete-comment
+RENAMED  TXT         16 26-10-21  3:00p rename-comment
+[-A-]
+[-B-]                    ┌────────────────────────────┐
+[-C-] HDD MDIRTEST       │     <DELETE> DELETE.TXT    │
+[-D-] HDD MDIRTEST       │                            │
+[-Z-] HDD DOSBOX-X       │       Yes        No        │
+                         └────────────────────────────┘
+
+
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    3 File    2 Dir            46 Byte        768,512(52%)byte free (1420K)   Q
+       16│26-10-21│15:00│....│ 26-10-21│WED│ 3:01:24pm │F10=MCD│F11=QCD│F12=Menu

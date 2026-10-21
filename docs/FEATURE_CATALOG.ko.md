@@ -8,6 +8,8 @@
 
 ## 주요 기능
 
+파일·주석·MCD·풀메모리의 최신 부분 관찰은 [등록판 작업 조사](REGISTERED_OPERATIONS.ko.md)와 [후속 상태](evidence/2026-10-21/registered-03/status.json)를 따른다.
+
 VV의 최신 부분 관찰은 [2차 실행 조사](VV_RUNTIME_FINDINGS.ko.md)와 [ID별 후속 상태](evidence/2026-10-21/vv-02/status.json)를 우선한다. 아래 최초 원장과 1차 실행 추적표는 이력으로 보존한다.
 
 | ID | 기능 | 진입/키 | 확인할 동작 | 로컬 근거 | 단계 | 실행 |

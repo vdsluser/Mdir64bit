@@ -1,0 +1,62 @@
+{
+  "file-verification.json": {
+    "bytes": 2451,
+    "sha256": "45035b99f87ec29c16ae1585d0a66c4701650e1b7f3f386469629ac79a31d5f4"
+  },
+  "full-mem.txt": {
+    "bytes": 1123,
+    "sha256": "11b264721d6f73cc3754b7bdb5d42f1e123b52212fcdc7b170097401ff9322a6"
+  },
+  "fullx-mem.txt": {
+    "bytes": 1259,
+    "sha256": "5fa3ddaed0d1e265724170307e5eff224d8e293b2d06a1f30f81624686e3954c"
+  },
+  "r013-delete.txt": {
+    "bytes": 1540,
+    "sha256": "fe33f6d5701774950ea223bbacd329ca033a6609dfb1f5a0694b8dac1c4efb59"
+  },
+  "r014-delete-finish.txt": {
+    "bytes": 1138,
+    "sha256": "6ce0c1fd9e5068a1262636478df98ab68b02c771a7c2f1ca665090f1f266c6c3"
+  },
+  "r018-copy-action.txt": {
+    "bytes": 943,
+    "sha256": "e084ed3fb91da1f51e93f20b306d9c4bc0fbf2fa6c7afa6d32e0ac6bdd4b1f29"
+  },
+  "r021-dir-copied.txt": {
+    "bytes": 510,
+    "sha256": "d62a69556f4fae608c80dd6d6063c77e8adc0a2ab039b6fba937408929288972"
+  },
+  "r023-dir-move-drive.txt": {
+    "bytes": 390,
+    "sha256": "3b08c907b4f51ab8829ccfff62b4660f3b5ee23fb6abea109fa99695f072ea30"
+  },
+  "r024-dir-moved.txt": {
+    "bytes": 461,
+    "sha256": "272aa20e79038e324cb38abf300a64864bb097c20d96e11ad31376c27fda8c05"
+  },
+  "r026-about.txt": {
+    "bytes": 1646,
+    "sha256": "1ae590f38887b988fdf8c7766c475dec3586a9d1f97bd732764fcaac885e0e8d"
+  },
+  "r029-memory-b.txt": {
+    "bytes": 1086,
+    "sha256": "095bcdc1b5341b10731731ae9fbbcddc9b7449cf9acb6927454f66eac45166f5"
+  },
+  "r031-full.txt": {
+    "bytes": 904,
+    "sha256": "4094a442bee4999a94cf97374924335af9baf61acfcb20efb71de0e846fa67cc"
+  },
+  "r032-batch-executed.txt": {
+    "bytes": 1086,
+    "sha256": "a9eadc7820ede37679d759aa9f677a592cce90a3ae0d254958cb6aa3970c5061"
+  },
+  "status.json": {
+    "bytes": 1855,
+    "sha256": "d07a335bfb68c9ac7036bad0d1a4206e6181e4ffb4b55a6e04e93f6b92331d1d"
+  },
+  "swap-mem.txt": {
+    "bytes": 1259,
+    "sha256": "5fa3ddaed0d1e265724170307e5eff224d8e293b2d06a1f30f81624686e3954c"
+  }
+}

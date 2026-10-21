@@ -1,0 +1,25 @@
+                         MdirIII Change Directory
+
+  \ ┬─DST
+    ├─MDIR
+    ├─TEMP
+    └─TEST────────┬─DST
+                  └─SRC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ D:\                                                              [            ]
+F1-Help│F2-Rescan│F3-Drive│<MOVE> │       │      │F7-Make│      │F9-Size│F11-QCD

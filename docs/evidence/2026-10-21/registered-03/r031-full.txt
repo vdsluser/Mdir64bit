@@ -1,0 +1,25 @@
+Path C:\CASE\*.*                                               Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 80-00-00 12:00a
+COPY     TXT         14 26-10-21  3:00p copy-comment
+RENAMED  TXT         16 26-10-21  3:00p rename-comment
+[-A-]
+[-B-]
+[-C-] HDD MDIRTEST
+[-D-] HDD MDIRTEST
+[-Z-] HDD DOSBOX-X
+
+
+
+
+
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    2 File    1 Dir            30 Byte        765,952(52%)byte free (1420K)   Q
+
+C:\CASE>

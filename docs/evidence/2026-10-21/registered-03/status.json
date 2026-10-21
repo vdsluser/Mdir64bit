@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "run": "registered-03",
+  "scope": "Supplement to 173 existing feature IDs; all rows partial",
+  "features": [
+    {
+      "id": "DESC-002",
+      "status": "PARTIAL",
+      "observed": "File copy/move/rename/delete comments; directory-parent comment remains",
+      "evidence": [
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-001",
+      "status": "PARTIAL",
+      "observed": "Cross-drive single file copy",
+      "evidence": [
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-004",
+      "status": "PARTIAL",
+      "observed": "Cross-drive single file move",
+      "evidence": [
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-005",
+      "status": "PARTIAL",
+      "observed": "Single file rename",
+      "evidence": [
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-006",
+      "status": "PARTIAL",
+      "observed": "Delete confirmation and single file removal",
+      "evidence": [
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "TREE-003",
+      "status": "PARTIAL",
+      "observed": "Same-drive directory copy, cross-drive directory move; cross-drive copy unresolved",
+      "evidence": [
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "CMD-001",
+      "status": "PARTIAL",
+      "observed": "Swap execution and separately invoked generated batch",
+      "evidence": [
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "VAR-015",
+      "status": "PARTIAL",
+      "observed": "Explicit %B under /X and without /X; automatic chaining unresolved",
+      "evidence": [
+        "file-verification.json"
+      ]
+    }
+  ],
+  "fully_verified_feature_rows": 0,
+  "summary": {
+    "PARTIAL": 8
+  }
+}
