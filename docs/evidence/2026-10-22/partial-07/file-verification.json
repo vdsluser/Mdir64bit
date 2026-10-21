@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-22",
+  "checks_semantics": "Assertions confirm observed outcomes, including loss of the preexisting target; not product safety pass",
+  "checks": {
+    "overwrite_source_content_unchanged": true,
+    "overwrite_source_comment_unchanged": true,
+    "overwrite_target_file_absent": true,
+    "overwrite_target_comments_unchanged": true,
+    "overwrite_registration_unchanged": true,
+    "overwrite_data_written_before_cleanup": true,
+    "overwrite_old_target_existed_before": true,
+    "move_source_content_unchanged": true,
+    "move_source_comment_unchanged": true,
+    "move_target_file_absent": true,
+    "move_target_comments_unchanged": true,
+    "move_registration_unchanged": true,
+    "move_data_written_before_cleanup": true,
+    "move_old_target_existed_before": true,
+    "space_source_content_unchanged": true,
+    "space_source_comment_unchanged": true,
+    "space_target_file_absent": true,
+    "space_target_comments_unchanged": true,
+    "space_registration_unchanged": true,
+    "space_keep_file_preserved": true,
+    "space_fill_preserved": true,
+    "space_no_source_pattern_written": true,
+    "space_changed_sectors_only_metadata_and_cache": true
+  },
+  "cases": {
+    "overwrite": {
+      "source_bytes": 524288,
+      "source_sha256": "33bc8aab40703678c3ebe94d2dd8f2afff285dd901f9234e841e4679f8204fd5",
+      "old_target_bytes": 131072,
+      "old_target_sha256": "9977c5e3df1123275a0ac1eb5bd462d915dd28a96ae0ee53f73e3fb35c567592",
+      "target_exists_after": false,
+      "target_comments_after_ascii": "BIG.BIN target-old\r\n",
+      "changed_sector_count": 388,
+      "new_source_pattern_sectors": 380,
+      "sector_bytes": 512,
+      "snapshots": {
+        "drive-before.img": {
+          "bytes": 1474560,
+          "sha256": "1421853e9a1e92fb40d704e5ae8ad1dfc2de4167a03844b614e1dbe68d851aee"
+        },
+        "drive.img": {
+          "bytes": 1474560,
+          "sha256": "72cd441d9819fde0bdc75d5b939b21d3fd1ee7377677d7357ede49ffb009ee56"
+        },
+        "target-before.img": {
+          "bytes": 1474560,
+          "sha256": "f47dd90e69a89b13356f5e36f570091123a2d40aa4a4d66183a2ca5bb9466bbe"
+        },
+        "target.img": {
+          "bytes": 1474560,
+          "sha256": "8db64064e1c08fb0dd9ab7aebd8a49f1aa526d628793c80aa758953b7ac2fecc"
+        }
+      }
+    },
+    "move": {
+      "source_bytes": 524288,
+      "source_sha256": "33bc8aab40703678c3ebe94d2dd8f2afff285dd901f9234e841e4679f8204fd5",
+      "old_target_bytes": 131072,
+      "old_target_sha256": "9977c5e3df1123275a0ac1eb5bd462d915dd28a96ae0ee53f73e3fb35c567592",
+      "target_exists_after": false,
+      "target_comments_after_ascii": "BIG.BIN target-old\r\n",
+      "changed_sector_count": 261,
+      "new_source_pattern_sectors": 253,
+      "sector_bytes": 512,
+      "snapshots": {
+        "drive-before.img": {
+          "bytes": 1474560,
+          "sha256": "1421853e9a1e92fb40d704e5ae8ad1dfc2de4167a03844b614e1dbe68d851aee"
+        },
+        "drive.img": {
+          "bytes": 1474560,
+          "sha256": "8d6b02d8b105cf76718b44d16cd3385ba914a847799232d15255e4e8ac2cbedc"
+        },
+        "target-before.img": {
+          "bytes": 1474560,
+          "sha256": "f47dd90e69a89b13356f5e36f570091123a2d40aa4a4d66183a2ca5bb9466bbe"
+        },
+        "target.img": {
+          "bytes": 1474560,
+          "sha256": "16f494d71390a53945fa4096dca53952d90f2547ca6d2054a5d30cbca8e6badf"
+        }
+      }
+    },
+    "space": {
+      "source_bytes": 524288,
+      "source_sha256": "33bc8aab40703678c3ebe94d2dd8f2afff285dd901f9234e841e4679f8204fd5",
+      "old_target_bytes": null,
+      "old_target_sha256": null,
+      "target_exists_after": false,
+      "target_comments_after_ascii": "KEEP.TXT keep-comment\r\n",
+      "changed_sector_count": 4,
+      "new_source_pattern_sectors": 0,
+      "sector_bytes": 512,
+      "snapshots": {
+        "drive-before.img": {
+          "bytes": 1474560,
+          "sha256": "1421853e9a1e92fb40d704e5ae8ad1dfc2de4167a03844b614e1dbe68d851aee"
+        },
+        "drive.img": {
+          "bytes": 1474560,
+          "sha256": "27ccec6b10e5ee5bc4f1d60a64621d7a5b3d64a1147e83883be4d28a03ad135e"
+        },
+        "target-before.img": {
+          "bytes": 1474560,
+          "sha256": "e0dd154a7365ed4cfda4d9c76b9f80781a24c5b0c54d41ee140d94a34c0e4f36"
+        },
+        "target.img": {
+          "bytes": 1474560,
+          "sha256": "36c411547eb414f7737232d1c5680bd33f2e1972e153f5b63dc35d8adbf45856"
+        }
+      },
+      "changed_sectors": [
+        8,
+        20,
+        25,
+        2571
+      ],
+      "cache_first_sector": 2571
+    }
+  },
+  "physical_devices_used": false,
+  "cancel_method": {
+    "breakpoint": "BPINT 21 40",
+    "control": "Pause on DOS write, advance until progress, remove breakpoint, enqueue Esc, resume",
+    "timing": "Not a real-time performance test"
+  },
+  "space_method": "Capacity warning Yes; write-space warning No; COPY failed captured; no payload sectors changed in this sample"
+}

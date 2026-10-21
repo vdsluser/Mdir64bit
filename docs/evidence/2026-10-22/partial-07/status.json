@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-22",
+  "run": "partial-07",
+  "scope": "Three independent image cases; assertions describe outcomes, not safety approval",
+  "fully_verified_feature_rows": 0,
+  "features": [
+    {
+      "id": "FILE-001",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "observed": "Overwrite-copy cancellation removed old target rather than restoring it",
+      "evidence": [
+        "w002-conflict.txt",
+        "w004-progress.txt",
+        "w005-cancelled.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-003",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "observed": "After-write cancellation cleanup and capacity warning Yes -> write error No; no payload written in space sample",
+      "evidence": [
+        "w005-cancelled.txt",
+        "p002-warning.txt",
+        "p003-continue.txt",
+        "p004-write-failure-no.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-004",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "observed": "Cross-drive overwrite-move cancellation preserved source but removed preexisting target",
+      "evidence": [
+        "m002-conflict.txt",
+        "m004-progress.txt",
+        "m005-cancelled.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "DESC-002",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "observed": "Old target description remained although overwritten target file was removed on cancellation",
+      "evidence": [
+        "w005-cancelled.txt",
+        "m005-cancelled.txt",
+        "file-verification.json"
+      ]
+    }
+  ]
+}

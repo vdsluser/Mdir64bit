@@ -1,0 +1,46 @@
+{
+  "file-verification.json": {
+    "bytes": 5116,
+    "sha256": "d1ddf6f39264127e571e6b5576deb0bea116e44be04e2c2f4d62692058468c37"
+  },
+  "m002-conflict.txt": {
+    "bytes": 2728,
+    "sha256": "64c2b2b5f65dc8fbb212e048e4903a8478632b3d16a4d3bf5aa0ebea526642bf"
+  },
+  "m004-progress.txt": {
+    "bytes": 2301,
+    "sha256": "3aa51bad80d65bfba3827d3cd6f044320e3bb5bcbb27ae4465a168aa16b66419"
+  },
+  "m005-cancelled.txt": {
+    "bytes": 1030,
+    "sha256": "98fc0d03d710c71c2d7f7c573bff1a6cb6004ef12c91c10b62d334656ad57ba7"
+  },
+  "p002-warning.txt": {
+    "bytes": 1549,
+    "sha256": "5fe399e5c546bf0a11ec54f5a21d8034248d5291d04fec30094961b101941882"
+  },
+  "p003-continue.txt": {
+    "bytes": 2511,
+    "sha256": "e86761c93e538ab8cec73af6243f839e6ebee2a8c80f3810b8ac3deb55de44a3"
+  },
+  "p004-write-failure-no.txt": {
+    "bytes": 1385,
+    "sha256": "754f2b9071c48b9de6e555fda41fa749df472f99dc96e20f008bc41a30b1e0aa"
+  },
+  "status.json": {
+    "bytes": 1614,
+    "sha256": "1ff326345dff0028d16718bd9a0192072a6987e17a05693c7d026e72cee1b76a"
+  },
+  "w002-conflict.txt": {
+    "bytes": 2728,
+    "sha256": "02e8d7d8806f378901b6a859b161da4145df4a271edcbe3b27af449f0c976aa9"
+  },
+  "w004-progress.txt": {
+    "bytes": 2301,
+    "sha256": "eaef9a9faa248fd3a42600fada2496e3ea04001963abfa2eab3f4fcaf558527e"
+  },
+  "w005-cancelled.txt": {
+    "bytes": 1030,
+    "sha256": "1d045b48ebfdc00143496b1da4436811b0f7484f2245c5912e8543f59a671434"
+  }
+}

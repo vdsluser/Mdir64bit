@@ -1,5 +1,5 @@
 {
-  "documented_date_seoul": "2026-10-21",
+  "documented_date_seoul": "2026-10-22",
   "stage": "P0 in progress; P1 not yet entered",
   "feature_rows": 173,
   "fully_verified_feature_rows": 0,
@@ -11,6 +11,7 @@
     "docs/evidence/2026-10-21/disk-04/status.json",
     "docs/evidence/2026-10-21/conflict-05/status.json",
     "docs/evidence/2026-10-21/description-06/status.json",
+    "docs/evidence/2026-10-22/partial-07/status.json",
     "docs/evidence/2026-10-21/registration-verification.json"
   ],
   "historical_registered_blockers": 8,
@@ -21,8 +22,8 @@
     "MENU_OBSERVED": 79,
     "NOT_RUN": 43,
     "OBSERVED_CASE": 7,
-    "PARTIAL": 40,
-    "PARTIAL_WITH_ANOMALY": 2
+    "PARTIAL": 37,
+    "PARTIAL_WITH_ANOMALY": 5
   },
   "features": [
     {
@@ -312,8 +313,8 @@
     {
       "id": "FILE-001",
       "title": "복사",
-      "status": "PARTIAL",
-      "scope": "Single file collision policies and cross-drive main-screen folder copy",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "scope": "Overwrite-copy cancellation removed old target rather than restoring it",
       "observations": [
         {
           "date": "2026-10-20",
@@ -345,6 +346,19 @@
             "docs/evidence/2026-10-21/conflict-05/c001-copy-a.txt",
             "docs/evidence/2026-10-21/conflict-05/c030-copy-only.txt",
             "docs/evidence/2026-10-21/conflict-05/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "source": "docs/evidence/2026-10-22/partial-07/status.json",
+          "report": "docs/PARTIAL_FAILURE_FINDINGS.ko.md",
+          "status": "PARTIAL_WITH_ANOMALY",
+          "scope": "Overwrite-copy cancellation removed old target rather than restoring it",
+          "evidence": [
+            "docs/evidence/2026-10-22/partial-07/w002-conflict.txt",
+            "docs/evidence/2026-10-22/partial-07/w004-progress.txt",
+            "docs/evidence/2026-10-22/partial-07/w005-cancelled.txt",
+            "docs/evidence/2026-10-22/partial-07/file-verification.json"
           ]
         }
       ],
@@ -405,8 +419,8 @@
     {
       "id": "FILE-003",
       "title": "부족 용량/부분 실패",
-      "status": "PARTIAL",
-      "scope": "After writes cancel removes new file/comment but raw bytes remain; space warning declined",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "scope": "After-write cancellation cleanup and capacity warning Yes -> write error No; no payload written in space sample",
       "observations": [
         {
           "date": "2026-10-20",
@@ -431,6 +445,20 @@
             "docs/evidence/2026-10-21/conflict-05/c028-space-decline.txt",
             "docs/evidence/2026-10-21/conflict-05/file-verification.json"
           ]
+        },
+        {
+          "date": "2026-10-22",
+          "source": "docs/evidence/2026-10-22/partial-07/status.json",
+          "report": "docs/PARTIAL_FAILURE_FINDINGS.ko.md",
+          "status": "PARTIAL_WITH_ANOMALY",
+          "scope": "After-write cancellation cleanup and capacity warning Yes -> write error No; no payload written in space sample",
+          "evidence": [
+            "docs/evidence/2026-10-22/partial-07/w005-cancelled.txt",
+            "docs/evidence/2026-10-22/partial-07/p002-warning.txt",
+            "docs/evidence/2026-10-22/partial-07/p003-continue.txt",
+            "docs/evidence/2026-10-22/partial-07/p004-write-failure-no.txt",
+            "docs/evidence/2026-10-22/partial-07/file-verification.json"
+          ]
         }
       ],
       "open_issues": [
@@ -440,8 +468,8 @@
     {
       "id": "FILE-004",
       "title": "이동",
-      "status": "PARTIAL",
-      "scope": "Main-screen cross-drive folder move; parent description remains",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "scope": "Cross-drive overwrite-move cancellation preserved source but removed preexisting target",
       "observations": [
         {
           "date": "2026-10-20",
@@ -473,6 +501,19 @@
           "evidence": [
             "docs/evidence/2026-10-21/conflict-05/c014-folder-move.txt",
             "docs/evidence/2026-10-21/conflict-05/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "source": "docs/evidence/2026-10-22/partial-07/status.json",
+          "report": "docs/PARTIAL_FAILURE_FINDINGS.ko.md",
+          "status": "PARTIAL_WITH_ANOMALY",
+          "scope": "Cross-drive overwrite-move cancellation preserved source but removed preexisting target",
+          "evidence": [
+            "docs/evidence/2026-10-22/partial-07/m002-conflict.txt",
+            "docs/evidence/2026-10-22/partial-07/m004-progress.txt",
+            "docs/evidence/2026-10-22/partial-07/m005-cancelled.txt",
+            "docs/evidence/2026-10-22/partial-07/file-verification.json"
           ]
         }
       ],
@@ -1044,7 +1085,7 @@
       "id": "DESC-002",
       "title": "주석 동반",
       "status": "PARTIAL_WITH_ANOMALY",
-      "scope": "All/Newer overwritten files append duplicate descriptions; skip policies preserve target descriptions",
+      "scope": "Old target description remained although overwritten target file was removed on cancellation",
       "observations": [
         {
           "date": "2026-10-20",
@@ -1086,6 +1127,18 @@
             "docs/evidence/2026-10-21/description-06/s012-skip-all.txt",
             "docs/evidence/2026-10-21/description-06/s016-newer-choice.txt",
             "docs/evidence/2026-10-21/description-06/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "source": "docs/evidence/2026-10-22/partial-07/status.json",
+          "report": "docs/PARTIAL_FAILURE_FINDINGS.ko.md",
+          "status": "PARTIAL_WITH_ANOMALY",
+          "scope": "Old target description remained although overwritten target file was removed on cancellation",
+          "evidence": [
+            "docs/evidence/2026-10-22/partial-07/w005-cancelled.txt",
+            "docs/evidence/2026-10-22/partial-07/m005-cancelled.txt",
+            "docs/evidence/2026-10-22/partial-07/file-verification.json"
           ]
         }
       ],

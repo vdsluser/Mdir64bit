@@ -17,10 +17,11 @@ SUPPLEMENTS = [
     ('docs/evidence/2026-10-21/disk-04/status.json', 'docs/DISK_RUNTIME_FINDINGS.ko.md'),
     ('docs/evidence/2026-10-21/conflict-05/status.json', 'docs/CONFLICT_RUNTIME_FINDINGS.ko.md'),
     ('docs/evidence/2026-10-21/description-06/status.json', 'docs/DESCRIPTION_RULES.ko.md'),
+    ('docs/evidence/2026-10-22/partial-07/status.json', 'docs/PARTIAL_FAILURE_FINDINGS.ko.md'),
 ]
 JSON_OUT = 'docs/evidence/current-status.json'
 MD_OUT = 'docs/CURRENT_STATUS.ko.md'
-DATE = '2026-10-21'
+DATE = '2026-10-22'
 LABELS = {
     'PARTIAL': '부분 관찰', 'NOT_RUN': '미실행',
     'BLOCKED_TOOL': '외부 도구 차단', 'MENU_OBSERVED': '메뉴만 관찰',
@@ -120,7 +121,7 @@ def build():
     }
     target = features['SET-007']
     target['observations'].append(observation(row, registration_source,
-                                            'docs/REGISTRATION_ANALYSIS.ko.md', DATE))
+                                            'docs/REGISTRATION_ANALYSIS.ko.md', registration['date']))
     target['status'], target['scope'] = row['status'], row['scope']
 
     counts = Counter(item['status'] for item in features.values())
