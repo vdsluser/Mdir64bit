@@ -10,6 +10,7 @@
     "docs/evidence/2026-10-21/registered-03/status.json",
     "docs/evidence/2026-10-21/disk-04/status.json",
     "docs/evidence/2026-10-21/conflict-05/status.json",
+    "docs/evidence/2026-10-21/description-06/status.json",
     "docs/evidence/2026-10-21/registration-verification.json"
   ],
   "historical_registered_blockers": 8,
@@ -355,7 +356,7 @@
       "id": "FILE-002",
       "title": "충돌 처리",
       "status": "PARTIAL",
-      "scope": "OverWrite, Skip, Rename and Esc; All/skip-all/Newer remain",
+      "scope": "All applies to two files, skip-all preserves two; Newer copies strictly newer and skips equal/older timestamp samples",
       "observations": [
         {
           "date": "2026-10-20",
@@ -380,6 +381,20 @@
             "docs/evidence/2026-10-21/conflict-05/c005-copy-c.txt",
             "docs/evidence/2026-10-21/conflict-05/c009-rename-option.txt",
             "docs/evidence/2026-10-21/conflict-05/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/description-06/status.json",
+          "report": "docs/DESCRIPTION_RULES.ko.md",
+          "status": "PARTIAL",
+          "scope": "All applies to two files, skip-all preserves two; Newer copies strictly newer and skips equal/older timestamp samples",
+          "evidence": [
+            "docs/evidence/2026-10-21/description-06/s008-all-conflict.txt",
+            "docs/evidence/2026-10-21/description-06/s012-skip-all.txt",
+            "docs/evidence/2026-10-21/description-06/s015-newer-conflict.txt",
+            "docs/evidence/2026-10-21/description-06/s016-newer-choice.txt",
+            "docs/evidence/2026-10-21/description-06/file-verification.json"
           ]
         }
       ],
@@ -498,7 +513,7 @@
       "id": "FILE-006",
       "title": "삭제",
       "status": "PARTIAL",
-      "scope": "Delete confirmation and single file removal",
+      "scope": "File deletion removes duplicate descriptions for that name while preserving another file/comment",
       "observations": [
         {
           "date": "2026-10-20",
@@ -519,6 +534,18 @@
           "scope": "Delete confirmation and single file removal",
           "evidence": [
             "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/description-06/status.json",
+          "report": "docs/DESCRIPTION_RULES.ko.md",
+          "status": "PARTIAL",
+          "scope": "File deletion removes duplicate descriptions for that name while preserving another file/comment",
+          "evidence": [
+            "docs/evidence/2026-10-21/description-06/s018-file-delete.txt",
+            "docs/evidence/2026-10-21/description-06/s019-file-deleted.txt",
+            "docs/evidence/2026-10-21/description-06/file-verification.json"
           ]
         }
       ],
@@ -980,7 +1007,7 @@
       "id": "DESC-001",
       "title": "주석 편집",
       "status": "PARTIAL",
-      "scope": "단일 ASCII 주석 저장·80바이트 편집한계 확인; 다중/삭제/한글 미검증",
+      "scope": "Last duplicate displayed; editing replaces all entries for that exact name; blank save retains empty record; restart verified",
       "observations": [
         {
           "date": "2026-10-20",
@@ -992,15 +1019,32 @@
             "docs/evidence/2026-10-20/077-description-saved.txt",
             "docs/evidence/2026-10-20/078-description-long.txt"
           ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/description-06/status.json",
+          "report": "docs/DESCRIPTION_RULES.ko.md",
+          "status": "PARTIAL",
+          "scope": "Last duplicate displayed; editing replaces all entries for that exact name; blank save retains empty record; restart verified",
+          "evidence": [
+            "docs/evidence/2026-10-21/description-06/s001-duplicate-read.txt",
+            "docs/evidence/2026-10-21/description-06/s002-duplicate-edit.txt",
+            "docs/evidence/2026-10-21/description-06/s003-edited.txt",
+            "docs/evidence/2026-10-21/description-06/s004-restart.txt",
+            "docs/evidence/2026-10-21/description-06/s005-delete-comment.txt",
+            "docs/evidence/2026-10-21/description-06/file-verification.json"
+          ]
         }
       ],
-      "open_issues": []
+      "open_issues": [
+        "P0-11"
+      ]
     },
     {
       "id": "DESC-002",
       "title": "주석 동반",
       "status": "PARTIAL_WITH_ANOMALY",
-      "scope": "Overwrite appends duplicate filename description; last description displayed; folder parent not transferred",
+      "scope": "All/Newer overwritten files append duplicate descriptions; skip policies preserve target descriptions",
       "observations": [
         {
           "date": "2026-10-20",
@@ -1029,6 +1073,19 @@
           "evidence": [
             "docs/evidence/2026-10-21/conflict-05/c016-target-display.txt",
             "docs/evidence/2026-10-21/conflict-05/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/description-06/status.json",
+          "report": "docs/DESCRIPTION_RULES.ko.md",
+          "status": "PARTIAL_WITH_ANOMALY",
+          "scope": "All/Newer overwritten files append duplicate descriptions; skip policies preserve target descriptions",
+          "evidence": [
+            "docs/evidence/2026-10-21/description-06/s009-all-result.txt",
+            "docs/evidence/2026-10-21/description-06/s012-skip-all.txt",
+            "docs/evidence/2026-10-21/description-06/s016-newer-choice.txt",
+            "docs/evidence/2026-10-21/description-06/file-verification.json"
           ]
         }
       ],

@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C:\NEWER\*.*                                              Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 80-00-00 12:00a
+A        TXT         10 24-01-02 12:00p source-a
+B        TXT         10 24-01-02 12:00p source-b
+C        TXT         10 24-01-01 12:00p source-c
+[-A-]
+[-B-]
+[-C-] HDD MDIRTEST
+[-D-] HDD MDIRTEST
+[-Z-] HDD DOSBOX-X
+
+
+
+
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    3 File    1 Dir            30 Byte        765,440(52%)byte free (1420K)   Q
+Directory│80-00-00│ 0:00│....│ 26-10-21│WED│10:00:56pm │F10=MCD│F11=QCD│F12=Menu

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-21",
+  "run": "description-06",
+  "scope": "Existing IDs; ASCII exact-name and small batch samples only",
+  "fully_verified_feature_rows": 0,
+  "features": [
+    {
+      "id": "DESC-001",
+      "status": "PARTIAL",
+      "observed": "Last duplicate displayed; editing replaces all entries for that exact name; blank save retains empty record; restart verified",
+      "evidence": [
+        "s001-duplicate-read.txt",
+        "s002-duplicate-edit.txt",
+        "s003-edited.txt",
+        "s004-restart.txt",
+        "s005-delete-comment.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "DESC-002",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "observed": "All/Newer overwritten files append duplicate descriptions; skip policies preserve target descriptions",
+      "evidence": [
+        "s009-all-result.txt",
+        "s012-skip-all.txt",
+        "s016-newer-choice.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-002",
+      "status": "PARTIAL",
+      "observed": "All applies to two files, skip-all preserves two; Newer copies strictly newer and skips equal/older timestamp samples",
+      "evidence": [
+        "s008-all-conflict.txt",
+        "s012-skip-all.txt",
+        "s015-newer-conflict.txt",
+        "s016-newer-choice.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-006",
+      "status": "PARTIAL",
+      "observed": "File deletion removes duplicate descriptions for that name while preserving another file/comment",
+      "evidence": [
+        "s018-file-delete.txt",
+        "s019-file-deleted.txt",
+        "file-verification.json"
+      ]
+    }
+  ]
+}

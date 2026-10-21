@@ -16,6 +16,7 @@ SUPPLEMENTS = [
     ('docs/evidence/2026-10-21/registered-03/status.json', 'docs/REGISTERED_OPERATIONS.ko.md'),
     ('docs/evidence/2026-10-21/disk-04/status.json', 'docs/DISK_RUNTIME_FINDINGS.ko.md'),
     ('docs/evidence/2026-10-21/conflict-05/status.json', 'docs/CONFLICT_RUNTIME_FINDINGS.ko.md'),
+    ('docs/evidence/2026-10-21/description-06/status.json', 'docs/DESCRIPTION_RULES.ko.md'),
 ]
 JSON_OUT = 'docs/evidence/current-status.json'
 MD_OUT = 'docs/CURRENT_STATUS.ko.md'
@@ -28,6 +29,7 @@ LABELS = {
 }
 ISSUES = {
     'VAR-011': ['P0-01'], 'TREE-003': ['P0-02', 'P0-03'],
+    'DESC-001': ['P0-11'],
     'DESC-002': ['P0-03', 'P0-06', 'P0-11'], 'VAR-015': ['P0-04'],
     'CMD-001': ['P0-04'], 'FORMAT-001': ['P0-05', 'P0-10'],
     'FILE-001': ['P0-06'], 'FILE-002': ['P0-06'],

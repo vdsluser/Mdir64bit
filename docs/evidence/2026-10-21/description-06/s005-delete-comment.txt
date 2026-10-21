@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C:\DUP\*.*                                                Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 80-00-00 12:00a
+A        TXT          7 26-10-21 12:59p edited-a
+B        TXT          7 26-10-21 12:59p
+[-A-]
+[-B-]
+[-C-] HDD MDIRTEST
+[-D-] HDD MDIRTEST
+[-Z-] HDD DOSBOX-X
+
+
+
+
+
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    2 File    1 Dir            14 Byte        765,440(52%)byte free (1420K)   Q
+        7│26-10-21│12:59│....│ 26-10-21│WED│10:00:04pm │F10=MCD│F11=QCD│F12=Menu

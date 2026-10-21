@@ -1,0 +1,66 @@
+{
+  "file-verification.json": {
+    "bytes": 2859,
+    "sha256": "a1fccd610587617047d01a1679072281a80f7b3e33e015ff393ad0dfa8f57cf7"
+  },
+  "s001-duplicate-read.txt": {
+    "bytes": 1072,
+    "sha256": "0cf0208028f14c4830e3008806a2ff221b035bbdeeef35a74d8bf35459f25a33"
+  },
+  "s002-duplicate-edit.txt": {
+    "bytes": 1729,
+    "sha256": "3411eea9a4bcbfc831b785fb7c8e07641fd2b665ea8ff2a01efcd4d5a2cd2598"
+  },
+  "s003-edited.txt": {
+    "bytes": 1074,
+    "sha256": "b7a17f26a511d7e205a5283973ee960744d2455d70e190270a279304eeb82183"
+  },
+  "s004-restart.txt": {
+    "bytes": 1074,
+    "sha256": "d92311571f84c1c99b0d9105734d0e609a259cc4e1fcc069dc4ac55e034a5304"
+  },
+  "s005-delete-comment.txt": {
+    "bytes": 1067,
+    "sha256": "2fec973390353a67c405c24b63728f962ae849bb0ff0ac988119f57a0febf1a7"
+  },
+  "s008-all-conflict.txt": {
+    "bytes": 2765,
+    "sha256": "56e211c13cd89abb320f7717acc7aaf0e1c638e1aa7d004dac4cb77e1ed0505b"
+  },
+  "s009-all-result.txt": {
+    "bytes": 1076,
+    "sha256": "a6e166219c51290223b3209964ff44f6f1380e8dd0d5c7524544d0f8582f04bb"
+  },
+  "s012-skip-all.txt": {
+    "bytes": 1076,
+    "sha256": "cc2c8e0eef3265ef5619081d5ba6de474b54cc63f37c217c9ca58ac1aaafcb74"
+  },
+  "s014-newer-ready.txt": {
+    "bytes": 1124,
+    "sha256": "c10159c4418b312d28429bea057c716316bab72c26102c4c7f3146a623dc1e18"
+  },
+  "s015-newer-conflict.txt": {
+    "bytes": 2808,
+    "sha256": "d18e6b480b1470bba964c55d247fec05252e7c1f1c7d865f10d342b7b934a5ce"
+  },
+  "s016-newer-choice.txt": {
+    "bytes": 1124,
+    "sha256": "05a224db66fad2bbee755ce0120e79368787f8b9b707970dbbf39a81ccfd6770"
+  },
+  "s017-file-delete-ready.txt": {
+    "bytes": 1083,
+    "sha256": "4af47c5026dac58f8233c6f5a66ca7849dcef8fdcc06156f2526d40b81b7ce14"
+  },
+  "s018-file-delete.txt": {
+    "bytes": 1454,
+    "sha256": "a393eaee211feb16717154ec5a599c4a00d37732964342b8abd0b482c006888f"
+  },
+  "s019-file-deleted.txt": {
+    "bytes": 1032,
+    "sha256": "1e4d9272a82ebe6f5b3bde5e26724007db70315b20ae4a2822316f6df5627e3c"
+  },
+  "status.json": {
+    "bytes": 1726,
+    "sha256": "077a9b15a8f48650acdc24722b882031a74bb9b81c3fce9cba705249afa311fb"
+  }
+}

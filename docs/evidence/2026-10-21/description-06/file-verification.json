@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-21",
+  "checks": {
+    "last_duplicate_displayed": true,
+    "edit_replaces_all_matching_entries": true,
+    "edit_keeps_other_duplicates": true,
+    "edited_value_survives_restart": true,
+    "empty_comment_keeps_blank_record": true,
+    "comment_changes_preserve_file_content": true,
+    "file_delete_removes_file": true,
+    "file_delete_removes_all_matching_descriptions": true,
+    "file_delete_keeps_other_file": true,
+    "all_copies_A": true,
+    "all_duplicate_comment_A": true,
+    "skip_all_keeps_A": true,
+    "all_copies_B": true,
+    "all_duplicate_comment_B": true,
+    "skip_all_keeps_B": true,
+    "skip_all_comments_unchanged": true,
+    "newer_copies_new_source": true,
+    "newer_skips_equal_time": true,
+    "newer_skips_older_source": true,
+    "newer_comments_match_actions": true,
+    "batch_sources_unchanged": true,
+    "registration_unchanged": true
+  },
+  "comments": {
+    "initial": "A.TXT first-a\r\nA.TXT last-a\r\nB.TXT first-b\r\nB.TXT last-b\r\n",
+    "after_edit": "B.TXT first-b\r\nB.TXT last-b\r\nA.TXT edited-a\r\n",
+    "after_empty": "A.TXT edited-a\r\nB.TXT \r\n",
+    "after_file_delete": "KEEP.TXT keep-comment\r\n",
+    "all": "A.TXT target-a\r\nB.TXT target-b\r\nA.TXT source-a\r\nB.TXT source-b\r\n",
+    "skip_all": "A.TXT target-a\r\nB.TXT target-b\r\n",
+    "newer": "A.TXT target-a\r\nB.TXT target-b\r\nC.TXT target-c\r\nA.TXT source-a\r\n"
+  },
+  "newer_input_times": {
+    "A": {
+      "source": "2024-01-02T03:00:00+00:00",
+      "target": "2024-01-01T03:00:00+00:00"
+    },
+    "B": {
+      "source": "2024-01-02T03:00:00+00:00",
+      "target": "2024-01-02T03:00:00+00:00"
+    },
+    "C": {
+      "source": "2024-01-01T03:00:00+00:00",
+      "target": "2024-01-02T03:00:00+00:00"
+    }
+  },
+  "snapshots": {
+    "drive-before.img": {
+      "bytes": 1474560,
+      "sha256": "cc771d8601cf5e0b67b225f9e3fd017713a56c4f2c36557d9073c7cad1cddf23"
+    },
+    "drive-after-edit.img": {
+      "bytes": 1474560,
+      "sha256": "2644d6f513619199e0193629617327bad67de846d5c9139f4dc6613ead95dba5"
+    },
+    "drive-after-empty.img": {
+      "bytes": 1474560,
+      "sha256": "a3665f3f7ca282b117db7d028e14eb494b00c64d1705bfb5cb88876549ab8002"
+    },
+    "drive-before-file-delete.img": {
+      "bytes": 1474560,
+      "sha256": "27af62fd11d9751b92ab4ea46173e90ec12b0112572c37d445bdec71c07877d0"
+    },
+    "drive.img": {
+      "bytes": 1474560,
+      "sha256": "4390fd45caeb69e3c3cd65f6920b395627a1a476c2bffbdf95e428900e7f6ef3"
+    },
+    "target-before.img": {
+      "bytes": 1474560,
+      "sha256": "050bfa9c8e426cfe1d2e83a9afcc6f98f0f6cc072e438c26562f0583838206cc"
+    },
+    "target.img": {
+      "bytes": 1474560,
+      "sha256": "9bde2b23b8444cac8e608d553fea90daed4ae7c52d31f2c477b45536f7b55ef3"
+    }
+  }
+}

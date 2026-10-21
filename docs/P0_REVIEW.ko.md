@@ -19,14 +19,14 @@
 | P0-03 | A / TREE-003, DESC-002 | 폴더 이동 후 부모 주석이 남는 동작의 범위 | 같은/다른 드라이브와 메인/MCD 경로를 비교. 폴더 자체 주석과 내부 DESCRIPT.ION을 각각 확인 |
 | P0-04 | B / CMD-001, VAR-015 | 풀메모리 배치의 같은 세션 자동 재진입 경로 | 호출 셸·부모 배치·환경별 실행을 추적. 명령 1회 수행·작업 경로·복귀·임시 파일 정리를 확인. 수동으로 생성 배치를 실행한 결과와 분리 |
 | P0-05 | C / FORMAT-001 | 0 BPB의 Quick에서 정상 오류/복귀를 못 본 원인 | 유효 BPB·0 BPB·짧은 이미지의 입력 검사를 구분. BIOS 호출과 원본 루틴을 추적해 오류/무응답의 근거와 관찰 종료 기준 기록 |
-| P0-06 | A / FILE-001..006, DESC-002 | 남은 충돌 정책·부분 실패·이동/덮어쓰기 중단의 일관성 | OverWrite/Skip/Rename/Esc, 새 파일 진행 후 취소와 용량 경고 No를 관찰함. All/sKip_all/Newer·경고 Yes·이동 중단·기존 대상 복원은 남아 있음 |
+| P0-06 | A / FILE-001..006, DESC-002 | 부분 실패·이동/덮어쓰기 중단의 일관성 | 여섯 충돌 정책의 정상 표본, 새 파일 진행 후 취소와 용량 경고 No를 관찰함. 경고 Yes·이동 중단·기존 대상 복원은 남아 있음 |
 | P0-07 | B / ARC-002 및 압축 계열 | 외부 PKUNZIP 부재와 형식별 실제 지원 | 실행 연결 설정과 요구 버전을 먼저 조사. 도구 확보 전에는 탐색/추출 성공으로 표시하지 않고 형식·도구·미지원 이유를 명시 |
 | P0-08 | B / SET 계열, P1 포맷 조사 | CFG/COL/이력/트리의 저장 단위와 취소·재시작 효과 | 작업 복사본에서 항목 하나씩 변경한 표본을 확보. 바이트 차이와 의미를 분리하고 읽기/마이그레이션 범위를 정리 |
 | P0-09 | B / LEGACY-004, DESC-003 등 | Win95·긴 이름·한글 BIOS·LAN/CD 환경 차이 | 필요한 환경과 예상 차이를 목록화. 제공되지 않은 환경은 차단/범위 제외 후보로 남기고 DOSBox 결과로 대체하지 않음 |
 | P0-10 | C / COPY-001/002, FORMAT-001 | 후기 취소·쓰기 방지·용량 차이·복수 사본 | 가상 이미지에서 변경 범위와 재시도 상태 확인. 현재의 조기 취소·같은 용량 한 사본 결과를 일반화하지 않음 |
-| P0-11 | A / DESC-002 | 덮어쓰기 후 같은 이름의 주석이 중복 저장되는 규칙 | 이번 표본은 기존+새 주석이 남고 목록에는 새 주석 표시. 중복의 읽기·편집·삭제·재실행을 비교하고 Windows 호환/정규화 정책 후보 작성 |
+| P0-11 | A / DESC-001/002 | 중복 항목의 이름·인코딩 경계와 Windows 호환 정책 | ASCII 동일 이름에서 마지막 항목 표시, 편집 시 해당 이름 정리, 빈 행 저장, 파일 삭제 시 해당 이름 제거를 관찰함. 대소문자·공백·한글·길이 경계와 정규화 정책은 미결정 |
 
-근거: [1차 실행](RUNTIME_FINDINGS.ko.md), [등록](REGISTRATION_ANALYSIS.ko.md), [VV](VV_RUNTIME_FINDINGS.ko.md), [파일·MCD·메모리](REGISTERED_OPERATIONS.ko.md), [MF/MCOPY](DISK_RUNTIME_FINDINGS.ko.md), [충돌·진행 후 취소](CONFLICT_RUNTIME_FINDINGS.ko.md).
+근거: [1차 실행](RUNTIME_FINDINGS.ko.md), [등록](REGISTRATION_ANALYSIS.ko.md), [VV](VV_RUNTIME_FINDINGS.ko.md), [파일·MCD·메모리](REGISTERED_OPERATIONS.ko.md), [MF/MCOPY](DISK_RUNTIME_FINDINGS.ko.md), [충돌·진행 후 취소](CONFLICT_RUNTIME_FINDINGS.ko.md), [중복 주석·일괄 정책](DESCRIPTION_RULES.ko.md).
 
 ## 다음 실행 묶음
 

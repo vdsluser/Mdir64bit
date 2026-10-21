@@ -39,11 +39,11 @@
 | SEL-001 | 선택 집합 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/023-select-one.txt) | — |
 | SEL-002 | 선택 순서 | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | FILE-001 | 복사 | 부분 관찰 | [보고서](CONFLICT_RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-21/conflict-05/c001-copy-a.txt) · [증거 2](../docs/evidence/2026-10-21/conflict-05/c030-copy-only.txt) · [증거 3](../docs/evidence/2026-10-21/conflict-05/file-verification.json) | P0-06 |
-| FILE-002 | 충돌 처리 | 부분 관찰 | [보고서](CONFLICT_RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-21/conflict-05/c001-copy-a.txt) · [증거 2](../docs/evidence/2026-10-21/conflict-05/c004-skip.txt) · [증거 3](../docs/evidence/2026-10-21/conflict-05/c005-copy-c.txt) · [증거 4](../docs/evidence/2026-10-21/conflict-05/c009-rename-option.txt) · [증거 5](../docs/evidence/2026-10-21/conflict-05/file-verification.json) | P0-06 |
+| FILE-002 | 충돌 처리 | 부분 관찰 | [보고서](DESCRIPTION_RULES.ko.md) · [증거 1](../docs/evidence/2026-10-21/description-06/s008-all-conflict.txt) · [증거 2](../docs/evidence/2026-10-21/description-06/s012-skip-all.txt) · [증거 3](../docs/evidence/2026-10-21/description-06/s015-newer-conflict.txt) · [증거 4](../docs/evidence/2026-10-21/description-06/s016-newer-choice.txt) · [증거 5](../docs/evidence/2026-10-21/description-06/file-verification.json) | P0-06 |
 | FILE-003 | 부족 용량/부분 실패 | 부분 관찰 | [보고서](CONFLICT_RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-21/conflict-05/c024-write-break-progress.txt) · [증거 2](../docs/evidence/2026-10-21/conflict-05/c025-active-cancel.txt) · [증거 3](../docs/evidence/2026-10-21/conflict-05/c027-space-warning.txt) · [증거 4](../docs/evidence/2026-10-21/conflict-05/c028-space-decline.txt) · [증거 5](../docs/evidence/2026-10-21/conflict-05/file-verification.json) | P0-06 |
 | FILE-004 | 이동 | 부분 관찰 | [보고서](CONFLICT_RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-21/conflict-05/c014-folder-move.txt) · [증거 2](../docs/evidence/2026-10-21/conflict-05/file-verification.json) | P0-06 |
 | FILE-005 | 이름 변경 | 부분 관찰 | [보고서](REGISTERED_OPERATIONS.ko.md) · [증거 1](../docs/evidence/2026-10-21/registered-03/file-verification.json) | — |
-| FILE-006 | 삭제 | 부분 관찰 | [보고서](REGISTERED_OPERATIONS.ko.md) · [증거 1](../docs/evidence/2026-10-21/registered-03/file-verification.json) | P0-06 |
+| FILE-006 | 삭제 | 부분 관찰 | [보고서](DESCRIPTION_RULES.ko.md) · [증거 1](../docs/evidence/2026-10-21/description-06/s018-file-delete.txt) · [증거 2](../docs/evidence/2026-10-21/description-06/s019-file-deleted.txt) · [증거 3](../docs/evidence/2026-10-21/description-06/file-verification.json) | P0-06 |
 | FILE-007 | 폴더 생성 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/031-mkdir-created.txt) | — |
 | FILE-008 | 속성 변경 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/069-readonly-set.txt) | — |
 | FILE-009 | 문서 보기/인쇄 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/vv-registration-blocked.png) | — |
@@ -67,8 +67,8 @@
 | CLI-003 | 환경 옵션 | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | CLI-004 | 시작/종료 모드 | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
 | CLI-005 | BAT 래퍼 | 미실행 | [보고서](RUNTIME_FINDINGS.ko.md) | — |
-| DESC-001 | 주석 편집 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/077-description-saved.txt) · [증거 2](../docs/evidence/2026-10-20/078-description-long.txt) | — |
-| DESC-002 | 주석 동반 | 부분 관찰·예외 | [보고서](CONFLICT_RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-21/conflict-05/c016-target-display.txt) · [증거 2](../docs/evidence/2026-10-21/conflict-05/file-verification.json) | P0-03, P0-06, P0-11 |
+| DESC-001 | 주석 편집 | 부분 관찰 | [보고서](DESCRIPTION_RULES.ko.md) · [증거 1](../docs/evidence/2026-10-21/description-06/s001-duplicate-read.txt) · [증거 2](../docs/evidence/2026-10-21/description-06/s002-duplicate-edit.txt) · [증거 3](../docs/evidence/2026-10-21/description-06/s003-edited.txt) · [증거 4](../docs/evidence/2026-10-21/description-06/s004-restart.txt) · [증거 5](../docs/evidence/2026-10-21/description-06/s005-delete-comment.txt) · [증거 6](../docs/evidence/2026-10-21/description-06/file-verification.json) | P0-11 |
+| DESC-002 | 주석 동반 | 부분 관찰·예외 | [보고서](DESCRIPTION_RULES.ko.md) · [증거 1](../docs/evidence/2026-10-21/description-06/s009-all-result.txt) · [증거 2](../docs/evidence/2026-10-21/description-06/s012-skip-all.txt) · [증거 3](../docs/evidence/2026-10-21/description-06/s016-newer-choice.txt) · [증거 4](../docs/evidence/2026-10-21/description-06/file-verification.json) | P0-03, P0-06, P0-11 |
 | DESC-003 | 주석 표시/긴 이름 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/082-restart-restored.txt) | P0-09 |
 | ARC-001 | 압축 인식 | 부분 관찰 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/085-archive-last-screen.txt) | — |
 | ARC-002 | 내부 탐색 | 외부 도구 차단 | [보고서](RUNTIME_FINDINGS.ko.md) · [증거 1](../docs/evidence/2026-10-20/085-archive-last-screen.txt) | P0-07 |
