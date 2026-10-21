@@ -1,0 +1,54 @@
+{
+  "01-long-off.png": {
+    "bytes": 33640,
+    "sha256": "76ea88c9c5eb32584688200b3faa85edc74e5fa4d5c7796a745b6bb3d6012efc"
+  },
+  "02-long-wrap.png": {
+    "bytes": 42141,
+    "sha256": "9d87a0ccd9595bb7bac0773c2d5f75caea3ab4498a25b8880a8ead2870a66c88"
+  },
+  "03-restart-wrap.png": {
+    "bytes": 42918,
+    "sha256": "082cfd16678fc7356a35593023f8e94622c686c096288c97abadd58a45277dda"
+  },
+  "04-tabs4.png": {
+    "bytes": 24444,
+    "sha256": "cb19f554a4d825ac4b0ea635593c4bc469e9b640ae3fc36f9095f4541ebc0cb7"
+  },
+  "05-tabs8.png": {
+    "bytes": 24469,
+    "sha256": "d40fe69758db32e9babaadc41d7ed8d8c5e333f15170b3f258d33dfbb69703ea"
+  },
+  "06-menu.png": {
+    "bytes": 39948,
+    "sha256": "b0583ebc082be3b5c50ec1f4e17d9d2cfd44ae8a185529b956f5fecb1b7840e0"
+  },
+  "07-ksc-auto.png": {
+    "bytes": 25786,
+    "sha256": "09633f052cc3bd09c6dc5e1cd119b99b646f9c6712d3b2c4369c0dfed8e929ee"
+  },
+  "08-johab-auto.png": {
+    "bytes": 26121,
+    "sha256": "4d0d9f44fd2b0f81a45a3ab9eccc06dde57f1869b48d8bf6189f2db9e975a450"
+  },
+  "09-johab-as-ksc.png": {
+    "bytes": 24790,
+    "sha256": "38c832b3a00a857ce7ac64b18850757392df0d6992ba76406318dbd5c321f91a"
+  },
+  "10-binary.png": {
+    "bytes": 45095,
+    "sha256": "4ea999da87311395e09214605a364cd2499b0e0ce10bff5164f696c168a89699"
+  },
+  "11-long-end.png": {
+    "bytes": 31777,
+    "sha256": "35055179e939632b71f5e526611324133869faddc4b8595c683b8c047a72395f"
+  },
+  "file-verification.json": {
+    "bytes": 2393,
+    "sha256": "33ceffff270bd7e5fa5041f600ac654a12539b1937309ae5325efe394863715d"
+  },
+  "status.json": {
+    "bytes": 1672,
+    "sha256": "e12a0a84bf5875a2cd06bdaa9c3775612caa3204e85318734472b7775550bbb2"
+  }
+}

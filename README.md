@@ -10,6 +10,7 @@ Mdir III의 사용 흐름을 분석하여 Windows 11 x64용 파일 관리자로 
 - [원본 실행 검증 절차](docs/VALIDATION_PLAN.ko.md)
 - [P0 원본 실행 조사 1차 결과와 차단 항목](docs/RUNTIME_FINDINGS.ko.md)
 - [등록번호 생성 로직과 등록판 기능 조사](docs/REGISTRATION_ANALYSIS.ko.md)
+- [등록판 VV의 한글·줄바꿈·탭·설정 저장 관찰](docs/VV_RUNTIME_FINDINGS.ko.md)
 
 2026-10-21 기준: 주요 파일작업·MCD/QCD·검색·주석·설정 저장을 조사했고, 등록번호 생성 로직을 복원해 합성 이름으로 원본 등록과 VV 실행을 검증했습니다. FAT 이미지에서 등록판 MF 포맷과 MCOPY 복사도 확인했습니다. 173개 기능의 최초 실행 추적표는 보존하며, 등록 관련 최신 결과는 위 후속 보고서를 우선합니다. P0는 진행 중이며 전체 기능 검증 완료를 뜻하지 않습니다.
 

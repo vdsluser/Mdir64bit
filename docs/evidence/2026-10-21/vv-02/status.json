@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-21",
+  "run": "vv-02",
+  "scope": "Supplement to historical runtime-status.json; do not sum as additional feature IDs",
+  "features": [
+    {
+      "id": "VIEW-001",
+      "status": "PARTIAL",
+      "observed": "Automatic KS/Johab samples, one manual F9 switch, binary sample; Hanja untested",
+      "evidence": [
+        "07-ksc-auto.png",
+        "08-johab-auto.png",
+        "09-johab-as-ksc.png",
+        "10-binary.png"
+      ]
+    },
+    {
+      "id": "VIEW-002",
+      "status": "PARTIAL",
+      "observed": "End at horizontal position 121; remaining movement cases untested",
+      "evidence": [
+        "11-long-end.png"
+      ]
+    },
+    {
+      "id": "VIEW-003",
+      "status": "PARTIAL",
+      "observed": "Wrap OFF/ON and tab stops 4/8; F4/F8 untested",
+      "evidence": [
+        "01-long-off.png",
+        "02-long-wrap.png",
+        "04-tabs4.png",
+        "05-tabs8.png"
+      ]
+    },
+    {
+      "id": "VIEW-004",
+      "status": "UNTESTED",
+      "observed": "Fonts, colors, resolution untested",
+      "evidence": []
+    },
+    {
+      "id": "VIEW-005",
+      "status": "PARTIAL",
+      "observed": "F2 persists word wrap across process restart; other settings untested",
+      "evidence": [
+        "03-restart-wrap.png",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "VIEW-006",
+      "status": "PARTIAL",
+      "observed": "F12 and Esc; mouse, screensaver and remaining CLI untested",
+      "evidence": [
+        "06-menu.png"
+      ]
+    }
+  ],
+  "fully_verified_feature_rows": 0,
+  "summary": {
+    "PARTIAL": 5,
+    "UNTESTED": 1
+  }
+}
