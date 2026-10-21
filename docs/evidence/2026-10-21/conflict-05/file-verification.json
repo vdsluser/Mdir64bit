@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-21",
+  "checks": {
+    "overwrite_content": true,
+    "skip_content": true,
+    "dialog_cancel_content": true,
+    "overwrite_duplicate_comments": true,
+    "skip_cancel_comments_preserved": true,
+    "rename_copy_content": true,
+    "rename_kept_existing": true,
+    "rename_comment": true,
+    "small_sources_unchanged": true,
+    "folder_moved": true,
+    "folder_inner_comments": true,
+    "folder_parent_comment_left": true,
+    "active_cancel_destination_removed": true,
+    "active_cancel_source_unchanged": true,
+    "space_decline_files_unchanged": true,
+    "registration_unchanged": true,
+    "active_cancel_data_written": true,
+    "standalone_cross_drive_copy": true,
+    "standalone_parent_comment_not_copied": true
+  },
+  "snapshots": {
+    "drive-before.img": {
+      "bytes": 1474560,
+      "sha256": "0457b9afc8a51728a92854056a7b750c157167d6792951488c8191778ba9a66f"
+    },
+    "target-before.img": {
+      "bytes": 1474560,
+      "sha256": "88a2fda82c45a424e5014e351b1a4ca34d818e27d2236af67730e5acf556f94a"
+    },
+    "target-after-cancel.img": {
+      "bytes": 1474560,
+      "sha256": "7c6d38335665b0e85d1aa50bbd82b08d1c497f305b97ae98b7324f93ad5baadc"
+    },
+    "drive-after-conflicts.img": {
+      "bytes": 1474560,
+      "sha256": "98757f3c88a1e023742dc1147f136a5e83ba74cfea289a55e8a47ab732a7c670"
+    },
+    "target-after-conflicts.img": {
+      "bytes": 1474560,
+      "sha256": "1b4b01413b9562a7fb67c1f4f687375ad4f5b663262df9fc6ea3df07ee5ce8df"
+    },
+    "target-before-active-cancel.img": {
+      "bytes": 1474560,
+      "sha256": "1b4b01413b9562a7fb67c1f4f687375ad4f5b663262df9fc6ea3df07ee5ce8df"
+    },
+    "target-after-active-cancel.img": {
+      "bytes": 1474560,
+      "sha256": "b3d68aef6f32577e929821e65ffb48c5763237207cebd6ced224f80a3732eeef"
+    },
+    "target-before-space-error.img": {
+      "bytes": 1474560,
+      "sha256": "9882ec786b92720c08c20cb847dd75fa7587fafb3889fa95c35e2a51dd383bd0"
+    },
+    "target-after-space-error.img": {
+      "bytes": 1474560,
+      "sha256": "9882ec786b92720c08c20cb847dd75fa7587fafb3889fa95c35e2a51dd383bd0"
+    },
+    "standalone-drive.img": {
+      "bytes": 1474560,
+      "sha256": "76c94cf84378db5aaa7d3e2254807651f5349d010323f24b85f39752a5f430b1"
+    },
+    "standalone-target.img": {
+      "bytes": 1474560,
+      "sha256": "2b3b20f61a3c12ff90f9b3da95ce58ae8ef90a205306d9af978a1b2e2f4415ed"
+    }
+  },
+  "overwrite_comments_ascii": "A.TXT target-a\r\nB.TXT target-b\r\nC.TXT target-c\r\nA.TXT source-a\r\n",
+  "final_comments_ascii": "A.TXT target-a\r\nB.TXT target-b\r\nC.TXT target-c\r\nA.TXT source-a\r\nCNEW.TXT source-c\r\n",
+  "source_parent_comments_ascii": "A.TXT source-a\r\nB.TXT source-b\r\nC.TXT source-c\r\nTREE parent-tree\r\n",
+  "active_cancel": {
+    "source_bytes": 524288,
+    "changed_sector_count": 255,
+    "new_source_pattern_sector_count": 253,
+    "source_pattern_first_sector": 1378,
+    "source_pattern_last_sector": 1630,
+    "sector_bytes": 512,
+    "destination_file_exists": false,
+    "raw_image_restored": false
+  },
+  "standalone_folder_copy_actual_destination": "D:\\TREE",
+  "standalone_selection_note": "Text COPYONLY did not select that directory in this target mode; actual destination was root. Verified actual path after shutdown."
+}

@@ -1,0 +1,78 @@
+{
+  "c001-copy-a.txt": {
+    "bytes": 2806,
+    "sha256": "497584c35648887cada4f17cccaa65bf2db1e56e847eb3362c46939a318a6d3a"
+  },
+  "c003-copy-b.txt": {
+    "bytes": 2806,
+    "sha256": "6380a18f7665438eda673f35790a1e47f61837bbeaaaa1d292ae29f772cbb986"
+  },
+  "c004-skip.txt": {
+    "bytes": 1214,
+    "sha256": "e666dbac6604bc4521dafcfe9f9e8e36fd07bd3c5a32e31094ac451364c9e136"
+  },
+  "c005-copy-c.txt": {
+    "bytes": 1214,
+    "sha256": "46f5098621d0f15222bc92f399349d3c6169d35153eb367cf147ef02b50f9a68"
+  },
+  "c008-rename-conflict.txt": {
+    "bytes": 2815,
+    "sha256": "9a6d6ddd522289b1a64eace5c55f31e3c9cd92dc4a67b10df3d361191e932472"
+  },
+  "c009-rename-option.txt": {
+    "bytes": 2819,
+    "sha256": "cad1bb4ff137db8bf1ae4388cf19f7e81f1afcdd216040990c11f780860b64a0"
+  },
+  "c010-renamed-copy.txt": {
+    "bytes": 1175,
+    "sha256": "c037da4f3c8bf004a8a682641d348c23cb30f3e46e2bab769c0c2bd44e4e189c"
+  },
+  "c012-folder-copy-drive.txt": {
+    "bytes": 389,
+    "sha256": "dbf88c91796ee5b6a541480029cc788f40aa8dfa7fda8f0af22f713a27880c95"
+  },
+  "c013-folder-copied.txt": {
+    "bytes": 1175,
+    "sha256": "4df54b8332e684bee77d2a833360eed1ff895517e63800aa15cf769056b8d38d"
+  },
+  "c014-folder-move.txt": {
+    "bytes": 1124,
+    "sha256": "5c2017fb91be59fed23ef944b0c45c621083013e95cd917538f95dfd9d446fe4"
+  },
+  "c016-target-display.txt": {
+    "bytes": 1211,
+    "sha256": "4999422b53233d47d5982a68c3372736d2661798bb6314011d0b2c686ff9b4e1"
+  },
+  "c024-write-break-progress.txt": {
+    "bytes": 2416,
+    "sha256": "3d565cc3e47493280e14b47d8a6d929b550a340192549fe823c70490c527ac86"
+  },
+  "c025-active-cancel.txt": {
+    "bytes": 1175,
+    "sha256": "0cb21d96cbed82092bbaa732a0242206214fe09bf060d16cb4f752df62ba8b5d"
+  },
+  "c027-space-warning.txt": {
+    "bytes": 1653,
+    "sha256": "d601883ce697eded2592e615a4ba8422afa610bf7534e01fc99c72606c309b1a"
+  },
+  "c028-space-decline.txt": {
+    "bytes": 1171,
+    "sha256": "4e78383f856b4eb5c5baedafe7679dc16ffc7d2811586db9c22f07a0bf5bf77d"
+  },
+  "c030-copy-only.txt": {
+    "bytes": 1226,
+    "sha256": "08af07581e30ee49db372d7f6d67d963d9e0ed589756f86e0c1d2728ec7861dd"
+  },
+  "cancel-method.json": {
+    "bytes": 281,
+    "sha256": "57fd8097215a8d6b16663c14c4f4194052a66171fbff7d9ed15cee595e7244a9"
+  },
+  "file-verification.json": {
+    "bytes": 3365,
+    "sha256": "7c0a924067ed97725a7598603b347d33d88af0c2b1758a1835bd2995b494b111"
+  },
+  "status.json": {
+    "bytes": 2072,
+    "sha256": "aa10b17a1dfacdc13e483dbd0b0615430e0339822d04240ed025bb33e1d7afd5"
+  }
+}

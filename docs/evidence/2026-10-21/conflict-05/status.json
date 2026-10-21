@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-21",
+  "run": "conflict-05",
+  "scope": "Supplement to existing feature IDs; not complete feature validation",
+  "features": [
+    {
+      "id": "FILE-001",
+      "status": "PARTIAL",
+      "observed": "Single file collision policies and cross-drive main-screen folder copy",
+      "evidence": [
+        "c001-copy-a.txt",
+        "c030-copy-only.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-002",
+      "status": "PARTIAL",
+      "observed": "OverWrite, Skip, Rename and Esc; All/skip-all/Newer remain",
+      "evidence": [
+        "c001-copy-a.txt",
+        "c004-skip.txt",
+        "c005-copy-c.txt",
+        "c009-rename-option.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-003",
+      "status": "PARTIAL",
+      "observed": "After writes cancel removes new file/comment but raw bytes remain; space warning declined",
+      "evidence": [
+        "c024-write-break-progress.txt",
+        "c025-active-cancel.txt",
+        "c027-space-warning.txt",
+        "c028-space-decline.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "FILE-004",
+      "status": "PARTIAL",
+      "observed": "Main-screen cross-drive folder move; parent description remains",
+      "evidence": [
+        "c014-folder-move.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "TREE-003",
+      "status": "PARTIAL",
+      "observed": "Cross-drive copy works via main Alt-C; earlier MCD F5 entry path remains unresolved",
+      "evidence": [
+        "c012-folder-copy-drive.txt",
+        "c030-copy-only.txt",
+        "file-verification.json"
+      ]
+    },
+    {
+      "id": "DESC-002",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "observed": "Overwrite appends duplicate filename description; last description displayed; folder parent not transferred",
+      "evidence": [
+        "c016-target-display.txt",
+        "file-verification.json"
+      ]
+    }
+  ],
+  "fully_verified_feature_rows": 0
+}

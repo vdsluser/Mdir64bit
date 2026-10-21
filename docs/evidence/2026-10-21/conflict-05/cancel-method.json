@@ -1,0 +1,10 @@
+{
+  "interrupt_breakpoint": "BPINT 21 40",
+  "steps": [
+    "Pause on DOS write",
+    "Advance until BIG.BIN copy progress appears",
+    "Clear breakpoint and enqueue Esc",
+    "Resume and capture result"
+  ],
+  "timing": "Debugger controlled; not real-time measurement"
+}

@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path D:\DST5\*.*                                               Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 80-00-00 12:00a
+TREE         [ SubDir ] 26-10-21  6:26p
+A        TXT         10 26-10-21  6:25p source-a
+B        TXT         10 26-10-21  6:25p target-b
+C        TXT         10 26-10-21  6:25p target-c
+CNEW     TXT         10 26-10-21  6:25p source-c
+[-A-]
+[-B-]
+[-C-] HDD MDIRTEST
+[-D-] HDD MDIRTEST
+[-Z-] HDD DOSBOX-X
+
+
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    4 File    2 Dir            40 Byte        769,024(52%)byte free (1420K)   Q
+Directory│80-00-00│ 0:00│....│ 26-10-21│WED│ 6:27:13pm │F10=MCD│F11=QCD│F12=Menu

@@ -9,6 +9,7 @@
     "docs/evidence/2026-10-21/vv-02/status.json",
     "docs/evidence/2026-10-21/registered-03/status.json",
     "docs/evidence/2026-10-21/disk-04/status.json",
+    "docs/evidence/2026-10-21/conflict-05/status.json",
     "docs/evidence/2026-10-21/registration-verification.json"
   ],
   "historical_registered_blockers": 8,
@@ -19,8 +20,8 @@
     "MENU_OBSERVED": 79,
     "NOT_RUN": 43,
     "OBSERVED_CASE": 7,
-    "PARTIAL": 41,
-    "PARTIAL_WITH_ANOMALY": 1
+    "PARTIAL": 40,
+    "PARTIAL_WITH_ANOMALY": 2
   },
   "features": [
     {
@@ -311,7 +312,7 @@
       "id": "FILE-001",
       "title": "복사",
       "status": "PARTIAL",
-      "scope": "Cross-drive single file copy",
+      "scope": "Single file collision policies and cross-drive main-screen folder copy",
       "observations": [
         {
           "date": "2026-10-20",
@@ -332,6 +333,18 @@
           "evidence": [
             "docs/evidence/2026-10-21/registered-03/file-verification.json"
           ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/conflict-05/status.json",
+          "report": "docs/CONFLICT_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Single file collision policies and cross-drive main-screen folder copy",
+          "evidence": [
+            "docs/evidence/2026-10-21/conflict-05/c001-copy-a.txt",
+            "docs/evidence/2026-10-21/conflict-05/c030-copy-only.txt",
+            "docs/evidence/2026-10-21/conflict-05/file-verification.json"
+          ]
         }
       ],
       "open_issues": [
@@ -342,7 +355,7 @@
       "id": "FILE-002",
       "title": "충돌 처리",
       "status": "PARTIAL",
-      "scope": "충돌 6항목의 UI와 Esc 취소만 확인; 6정책 각각 처리 미검증",
+      "scope": "OverWrite, Skip, Rename and Esc; All/skip-all/Newer remain",
       "observations": [
         {
           "date": "2026-10-20",
@@ -354,6 +367,20 @@
             "docs/evidence/2026-10-20/026-copy-conflict.txt",
             "docs/evidence/2026-10-20/027-copy-cancel.txt"
           ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/conflict-05/status.json",
+          "report": "docs/CONFLICT_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "OverWrite, Skip, Rename and Esc; All/skip-all/Newer remain",
+          "evidence": [
+            "docs/evidence/2026-10-21/conflict-05/c001-copy-a.txt",
+            "docs/evidence/2026-10-21/conflict-05/c004-skip.txt",
+            "docs/evidence/2026-10-21/conflict-05/c005-copy-c.txt",
+            "docs/evidence/2026-10-21/conflict-05/c009-rename-option.txt",
+            "docs/evidence/2026-10-21/conflict-05/file-verification.json"
+          ]
         }
       ],
       "open_issues": [
@@ -364,7 +391,7 @@
       "id": "FILE-003",
       "title": "부족 용량/부분 실패",
       "status": "PARTIAL",
-      "scope": "충돌 취소 때 파일 내용 보존; 선택 표시 해제 관찰, 부족 용량은 미검증",
+      "scope": "After writes cancel removes new file/comment but raw bytes remain; space warning declined",
       "observations": [
         {
           "date": "2026-10-20",
@@ -374,6 +401,20 @@
           "scope": "충돌 취소 때 파일 내용 보존; 선택 표시 해제 관찰, 부족 용량은 미검증",
           "evidence": [
             "docs/evidence/2026-10-20/027-copy-cancel.txt"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/conflict-05/status.json",
+          "report": "docs/CONFLICT_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "After writes cancel removes new file/comment but raw bytes remain; space warning declined",
+          "evidence": [
+            "docs/evidence/2026-10-21/conflict-05/c024-write-break-progress.txt",
+            "docs/evidence/2026-10-21/conflict-05/c025-active-cancel.txt",
+            "docs/evidence/2026-10-21/conflict-05/c027-space-warning.txt",
+            "docs/evidence/2026-10-21/conflict-05/c028-space-decline.txt",
+            "docs/evidence/2026-10-21/conflict-05/file-verification.json"
           ]
         }
       ],
@@ -385,7 +426,7 @@
       "id": "FILE-004",
       "title": "이동",
       "status": "PARTIAL",
-      "scope": "Cross-drive single file move",
+      "scope": "Main-screen cross-drive folder move; parent description remains",
       "observations": [
         {
           "date": "2026-10-20",
@@ -406,6 +447,17 @@
           "scope": "Cross-drive single file move",
           "evidence": [
             "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/conflict-05/status.json",
+          "report": "docs/CONFLICT_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Main-screen cross-drive folder move; parent description remains",
+          "evidence": [
+            "docs/evidence/2026-10-21/conflict-05/c014-folder-move.txt",
+            "docs/evidence/2026-10-21/conflict-05/file-verification.json"
           ]
         }
       ],
@@ -605,7 +657,7 @@
       "id": "TREE-003",
       "title": "MCD 폴더 작업",
       "status": "PARTIAL",
-      "scope": "Same-drive directory copy, cross-drive directory move; cross-drive copy unresolved",
+      "scope": "Cross-drive copy works via main Alt-C; earlier MCD F5 entry path remains unresolved",
       "observations": [
         {
           "date": "2026-10-20",
@@ -623,6 +675,18 @@
           "scope": "Same-drive directory copy, cross-drive directory move; cross-drive copy unresolved",
           "evidence": [
             "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/conflict-05/status.json",
+          "report": "docs/CONFLICT_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Cross-drive copy works via main Alt-C; earlier MCD F5 entry path remains unresolved",
+          "evidence": [
+            "docs/evidence/2026-10-21/conflict-05/c012-folder-copy-drive.txt",
+            "docs/evidence/2026-10-21/conflict-05/c030-copy-only.txt",
+            "docs/evidence/2026-10-21/conflict-05/file-verification.json"
           ]
         }
       ],
@@ -935,8 +999,8 @@
     {
       "id": "DESC-002",
       "title": "주석 동반",
-      "status": "PARTIAL",
-      "scope": "File copy/move/rename/delete comments; directory-parent comment remains",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "scope": "Overwrite appends duplicate filename description; last description displayed; folder parent not transferred",
       "observations": [
         {
           "date": "2026-10-20",
@@ -955,11 +1019,23 @@
           "evidence": [
             "docs/evidence/2026-10-21/registered-03/file-verification.json"
           ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/conflict-05/status.json",
+          "report": "docs/CONFLICT_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL_WITH_ANOMALY",
+          "scope": "Overwrite appends duplicate filename description; last description displayed; folder parent not transferred",
+          "evidence": [
+            "docs/evidence/2026-10-21/conflict-05/c016-target-display.txt",
+            "docs/evidence/2026-10-21/conflict-05/file-verification.json"
+          ]
         }
       ],
       "open_issues": [
         "P0-03",
-        "P0-06"
+        "P0-06",
+        "P0-11"
       ]
     },
     {

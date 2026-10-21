@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C:\CASE5\*.*                                              Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 80-00-00 12:00a
+BIG      BIN    524,288 26-10-21  6:28p big-comment
+A        TXT         10 26-10-21  6:25p source-a
+B        TXT         10 26-10-21  6:25p source-b
+C        TXT         10 26-10-21  6:25p source-c
+[-A-]
+[-B-]          ┌────────────────────────────────────────────────┐
+[-C-] HDD MDIR │    Not enough free space for COPY. Continue?   │
+[-D-] HDD MDIR │                                                │
+[-Z-] HDD DOSB │                 Yes        No                  │
+               └────────────────────────────────────────────────┘
+
+
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    4 File    1 Dir       524,318 Byte        244,736(16%)byte free (1420K)   Q
+   524288│26-10-21│18:28│....│ 26-10-21│WED│ 6:29:37pm │F10=MCD│F11=QCD│F12=Menu

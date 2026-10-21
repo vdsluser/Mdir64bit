@@ -1,0 +1,25 @@
+F2he      │3EDIT    │4HVIEW   │5Virus   │6SAN     │7pctools │8HELP    │9Defrag
+Path C:\CASE5\*.*                                              Volume [MDIRTEST]
+════════════════════════════════════════════════════════════════════════════════
+..           [ Up-Dir ] 80-00-00 12:00a
+TREE         [ SubDir ] 26-10-21  6:25p parent-tree
+A        TXT         10 26-10-21  6:25p source-a
+B        TXT         10 26-10-21  6:25p source-b
+C        TXT         10 26-10-21  6:25p source-c
+[-A-]
+[-B-]
+[-C-] HDD MDIRTEST
+[-D-] HDD MDIRTEST
+[-Z-] HDD DOSBOX-X
+
+
+
+
+
+
+
+
+
+════════════════════════════════════════════════════════════════════════════════
+    3 File    2 Dir            30 Byte        769,536(52%)byte free (1420K)   Q
+Directory│26-10-21│18:25│....│ 26-10-21│WED│ 6:26:55pm │F10=MCD│F11=QCD│F12=Menu
