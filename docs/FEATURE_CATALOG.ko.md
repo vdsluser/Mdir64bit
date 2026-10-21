@@ -2,7 +2,7 @@
 
 2026-10-21 update: [Registration follow-up and current evidence](REGISTRATION_ANALYSIS.ko.md). Earlier registration-blocked results below are retained as historical observations.
 
-최초 문서 분석: 2026-10-20. 아래 표는 **DOC(문서) 기반 초기 원장**이다. 각 행의 미검증 표시는 최초 상태이며, **현재 실행 상태는 [실행 조사 보고서](RUNTIME_FINDINGS.ko.md)와 [실행 추적표](evidence/2026-10-20/runtime-status.json)를 우선한다.** 제품 구현은 미착수다. 기존 ID는 재번호화하지 않는다.
+최초 문서 분석: 2026-10-20. 아래 표는 **DOC(문서) 기반 초기 원장**이다. 각 행의 미검증 표시는 최초 상태이며, **현재 실행 상태는 [통합 상태](CURRENT_STATUS.ko.md)와 [현재 JSON 원장](evidence/current-status.json)을 우선한다.** 제품 구현은 미착수다. 기존 ID는 재번호화하지 않는다.
 
 근거는 로컬 원본을 CP949로 디코딩하고 줄바꿈 기준으로 센 1기반 줄 번호다. 원본 전체 텍스트는 공개 저장소에 올리지 않는다. 행은 검증 가능한 동작 묶음이며 테스트 사례는 더 세분화한다.
 

@@ -2,7 +2,7 @@
 
 2026-10-21 update: [Registration follow-up and current evidence](REGISTRATION_ANALYSIS.ko.md). Earlier registration-blocked results below are retained as historical observations.
 
-원본 관찰: 2026-10-20 · 결과 정리: 2026-10-21 (Asia/Seoul). **P0 진행 중**이며 전 기능 검증 완료가 아니다. 최초 문서 원장의 173개 행에 대한 현재 상태는 [실행 추적표](evidence/2026-10-20/runtime-status.json)를 따른다. 한 행의 일부 사례를 확인했다고 전체 기능을 통과로 바꾸지 않았다.
+원본 관찰: 2026-10-20 · 결과 정리: 2026-10-21 (Asia/Seoul). **P0 진행 중**이며 전 기능 검증 완료가 아니다. 아래는 [최초 실행 추적표](evidence/2026-10-20/runtime-status.json)의 당시 결과다. 후속 관찰을 반영한 현재 상태는 [통합 상태](CURRENT_STATUS.ko.md)를 따른다. 한 행의 일부 사례를 확인했다고 전체 기능을 통과로 바꾸지 않았다.
 
 ## 확인한 원본과 환경
 

@@ -1,0 +1,3471 @@
+{
+  "documented_date_seoul": "2026-10-21",
+  "stage": "P0 in progress; P1 not yet entered",
+  "feature_rows": 173,
+  "fully_verified_feature_rows": 0,
+  "status_semantics": "Latest scoped observations with full history; no overall completion percentage",
+  "sources": [
+    "docs/evidence/2026-10-20/runtime-status.json",
+    "docs/evidence/2026-10-21/vv-02/status.json",
+    "docs/evidence/2026-10-21/registered-03/status.json",
+    "docs/evidence/2026-10-21/disk-04/status.json",
+    "docs/evidence/2026-10-21/registration-verification.json"
+  ],
+  "historical_registered_blockers": 8,
+  "current_registered_blockers": 0,
+  "summary": {
+    "BLOCKED_TOOL": 1,
+    "DIFF": 1,
+    "MENU_OBSERVED": 79,
+    "NOT_RUN": 43,
+    "OBSERVED_CASE": 7,
+    "PARTIAL": 41,
+    "PARTIAL_WITH_ANOMALY": 1
+  },
+  "features": [
+    {
+      "id": "UI-001",
+      "title": "도움말과 메뉴",
+      "status": "PARTIAL",
+      "scope": "메인 6메뉴와 도움말만 확인; 연결명령 목록 및 모든 코드 모드는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "메인 6메뉴와 도움말만 확인; 연결명령 목록 및 모든 코드 모드는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/019-bios-menu.txt",
+            "docs/evidence/2026-10-20/020-help.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "UI-002",
+      "title": "상태선 안내",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "UI-003",
+      "title": "목록 열 구성",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "UI-004",
+      "title": "화면 구성",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "UI-005",
+      "title": "파일 표시",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "UI-006",
+      "title": "정렬",
+      "status": "PARTIAL",
+      "scope": "이름순 한 사례만 확인; 나머지 정렬·역순 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "이름순 한 사례만 확인; 나머지 정렬·역순 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/022-name-sort-single.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "UI-007",
+      "title": "정렬 동률 규칙",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "NAV-001",
+      "title": "커서 이동",
+      "status": "PARTIAL",
+      "scope": "방향키로 파일·트리 이동만 확인",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "방향키로 파일·트리 이동만 확인",
+          "evidence": [
+            "docs/evidence/2026-10-20/023-select-one.txt",
+            "docs/evidence/2026-10-20/034-mcd.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "NAV-002",
+      "title": "문자 빠른 검색",
+      "status": "PARTIAL",
+      "scope": "문자로 선택 파일 찾기만 확인; 반복/취소/확장 옵션 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "문자로 선택 파일 찾기만 확인; 반복/취소/확장 옵션 미검증",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "NAV-003",
+      "title": "드라이브/상위/루트",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "NAV-004",
+      "title": "작업 디렉토리",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "NAV-005",
+      "title": "이전 대상 복귀",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "MOUSE-001",
+      "title": "마우스 입력",
+      "status": "PARTIAL",
+      "scope": "상태선 메뉴 클릭만 확인; 모든 버튼 의미 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "상태선 메뉴 클릭만 확인; 모든 버튼 의미 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/019-bios-menu.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "MOUSE-002",
+      "title": "상태선 명령",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SEL-001",
+      "title": "선택 집합",
+      "status": "PARTIAL",
+      "scope": "Space 선택 및 커서 다음 행 이동만 확인",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Space 선택 및 커서 다음 행 이동만 확인",
+          "evidence": [
+            "docs/evidence/2026-10-20/023-select-one.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SEL-002",
+      "title": "선택 순서",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "FILE-001",
+      "title": "복사",
+      "status": "PARTIAL",
+      "scope": "Cross-drive single file copy",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "단일 파일 복사와 내용 해시 확인; 다중/폴더/키 설정 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/029-files.json"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/registered-03/status.json",
+          "report": "docs/REGISTERED_OPERATIONS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Cross-drive single file copy",
+          "evidence": [
+            "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-06"
+      ]
+    },
+    {
+      "id": "FILE-002",
+      "title": "충돌 처리",
+      "status": "PARTIAL",
+      "scope": "충돌 6항목의 UI와 Esc 취소만 확인; 6정책 각각 처리 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "충돌 6항목의 UI와 Esc 취소만 확인; 6정책 각각 처리 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/026-copy-conflict.txt",
+            "docs/evidence/2026-10-20/027-copy-cancel.txt"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-06"
+      ]
+    },
+    {
+      "id": "FILE-003",
+      "title": "부족 용량/부분 실패",
+      "status": "PARTIAL",
+      "scope": "충돌 취소 때 파일 내용 보존; 선택 표시 해제 관찰, 부족 용량은 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "충돌 취소 때 파일 내용 보존; 선택 표시 해제 관찰, 부족 용량은 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/027-copy-cancel.txt"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-06"
+      ]
+    },
+    {
+      "id": "FILE-004",
+      "title": "이동",
+      "status": "PARTIAL",
+      "scope": "Cross-drive single file move",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "동일 드라이브 GAMMA 이동, 원본 부재·대상 내용 일치; 교차 드라이브 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/075-move-complete.txt",
+            "docs/evidence/2026-10-20/environment.json"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/registered-03/status.json",
+          "report": "docs/REGISTERED_OPERATIONS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Cross-drive single file move",
+          "evidence": [
+            "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-06"
+      ]
+    },
+    {
+      "id": "FILE-005",
+      "title": "이름 변경",
+      "status": "PARTIAL",
+      "scope": "Single file rename",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "단일 폴더 NEWDIR -> RENAMED 확인; 파일/일괄/예약명 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/033-renamed.txt"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/registered-03/status.json",
+          "report": "docs/REGISTERED_OPERATIONS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Single file rename",
+          "evidence": [
+            "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "FILE-006",
+      "title": "삭제",
+      "status": "PARTIAL",
+      "scope": "Delete confirmation and single file removal",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "읽기전용 삭제의 추가 질문과 취소 확인; 삭제 성공·폴더/루트 삭제 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/071-delete-readonly-extra.txt",
+            "docs/evidence/2026-10-20/072-delete-cancel.txt"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/registered-03/status.json",
+          "report": "docs/REGISTERED_OPERATIONS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Delete confirmation and single file removal",
+          "evidence": [
+            "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-06"
+      ]
+    },
+    {
+      "id": "FILE-007",
+      "title": "폴더 생성",
+      "status": "PARTIAL",
+      "scope": "NEWDIR 생성 확인; 중복/오류/긴 이름 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "NEWDIR 생성 확인; 중복/오류/긴 이름 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/031-mkdir-created.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "FILE-008",
+      "title": "속성 변경",
+      "status": "PARTIAL",
+      "scope": "단일 파일 ReadOnly 쓰기·호스트 속성 확인; 나머지 속성/일괄 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "단일 파일 ReadOnly 쓰기·호스트 속성 확인; 나머지 속성/일괄 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/069-readonly-set.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "FILE-009",
+      "title": "문서 보기/인쇄",
+      "status": "PARTIAL",
+      "scope": "Alt-V 연결이 VV의 등록 오류까지 도달; 인쇄 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Alt-V 연결이 VV의 등록 오류까지 도달; 인쇄 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vv-registration-blocked.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "DISK-001",
+      "title": "볼륨명",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "DISK-002",
+      "title": "포맷/복제/파킹",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "TREE-001",
+      "title": "MCD 탐색",
+      "status": "PARTIAL",
+      "scope": "F10 및 대상선택 트리와 드라이브 선택 확인; 전체 키 조합 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "F10 및 대상선택 트리와 드라이브 선택 확인; 전체 키 조합 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/034-mcd.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "TREE-002",
+      "title": "MCD 재검색/캐시",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "TREE-003",
+      "title": "MCD 폴더 작업",
+      "status": "PARTIAL",
+      "scope": "Same-drive directory copy, cross-drive directory move; cross-drive copy unresolved",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/registered-03/status.json",
+          "report": "docs/REGISTERED_OPERATIONS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Same-drive directory copy, cross-drive directory move; cross-drive copy unresolved",
+          "evidence": [
+            "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-02",
+        "P0-03"
+      ]
+    },
+    {
+      "id": "TREE-004",
+      "title": "MCD 크기/정렬",
+      "status": "PARTIAL",
+      "scope": "F9 파일수·하위폴더수·37바이트 집계 확인; 모든 통계/정렬 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "F9 파일수·하위폴더수·37바이트 집계 확인; 모든 통계/정렬 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/035-tree-size.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "QCD-001",
+      "title": "즐겨찾기",
+      "status": "PARTIAL",
+      "scope": "1번 등록과 Shift-F1 경로 이동 확인; 삭제/오류/재시작 지속성 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "1번 등록과 Shift-F1 경로 이동 확인; 삭제/오류/재시작 지속성 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/038-qcd-saved.txt",
+            "docs/evidence/2026-10-20/073-qcd-jump.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "RUN-001",
+      "title": "실행 방식",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "RUN-002",
+      "title": "종료 후 실행",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "RUN-003",
+      "title": "28개 펑션키",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "RUN-004",
+      "title": "확장자 연결",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "RUN-005",
+      "title": "마지막 실행 화면",
+      "status": "PARTIAL",
+      "scope": "Ctrl-T로 PKUNZIP 오류가 있는 마지막 작업화면 확인",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Ctrl-T로 PKUNZIP 오류가 있는 마지막 작업화면 확인",
+          "evidence": [
+            "docs/evidence/2026-10-20/085-archive-last-screen.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "CMD-001",
+      "title": "명령줄",
+      "status": "PARTIAL",
+      "scope": "Swap execution and separately invoked generated batch",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "? 명령에서 ECHO 및 리다이렉션 확인; 배치/스와핑 전체 모드 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/093-command-variable.txt",
+            "docs/evidence/2026-10-20/arg.txt"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/registered-03/status.json",
+          "report": "docs/REGISTERED_OPERATIONS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Swap execution and separately invoked generated batch",
+          "evidence": [
+            "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-04"
+      ]
+    },
+    {
+      "id": "CMD-002",
+      "title": "입력 편집/삽입",
+      "status": "PARTIAL",
+      "scope": "Ctrl-Y 전체 지우기와 문자열 입력 확인; 나머지 편집/경로 삽입 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Ctrl-Y 전체 지우기와 문자열 입력 확인; 나머지 편집/경로 삽입 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/042-mff-edit.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "CMD-003",
+      "title": "명령 이력",
+      "status": "PARTIAL",
+      "scope": "PgUp 이력 메뉴에 두 명령 표시; 저장/재시작/수정실행 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "PgUp 이력 메뉴에 두 명령 표시; 저장/재시작/수정실행 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/097-command-history.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "CLI-001",
+      "title": "실행 인자",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "CLI-002",
+      "title": "표시/정렬 옵션",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "CLI-003",
+      "title": "환경 옵션",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "CLI-004",
+      "title": "시작/종료 모드",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "CLI-005",
+      "title": "BAT 래퍼",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "DESC-001",
+      "title": "주석 편집",
+      "status": "PARTIAL",
+      "scope": "단일 ASCII 주석 저장·80바이트 편집한계 확인; 다중/삭제/한글 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "단일 ASCII 주석 저장·80바이트 편집한계 확인; 다중/삭제/한글 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/077-description-saved.txt",
+            "docs/evidence/2026-10-20/078-description-long.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "DESC-002",
+      "title": "주석 동반",
+      "status": "PARTIAL",
+      "scope": "File copy/move/rename/delete comments; directory-parent comment remains",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/registered-03/status.json",
+          "report": "docs/REGISTERED_OPERATIONS.ko.md",
+          "status": "PARTIAL",
+          "scope": "File copy/move/rename/delete comments; directory-parent comment remains",
+          "evidence": [
+            "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-03",
+        "P0-06"
+      ]
+    },
+    {
+      "id": "DESC-003",
+      "title": "주석 표시/긴 이름",
+      "status": "PARTIAL",
+      "scope": "주석 표시와 재시작 후 읽기만 확인; LFN 변환 및 표시모드 전체 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "주석 표시와 재시작 후 읽기만 확인; LFN 변환 및 표시모드 전체 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/082-restart-restored.txt"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-09"
+      ]
+    },
+    {
+      "id": "ARC-001",
+      "title": "압축 인식",
+      "status": "PARTIAL",
+      "scope": "ZIP이 PKUNZIP 호출까지 도달; 외부도구 부재, 나머지 형식 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "ZIP이 PKUNZIP 호출까지 도달; 외부도구 부재, 나머지 형식 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/085-archive-last-screen.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "ARC-002",
+      "title": "내부 탐색",
+      "status": "BLOCKED_TOOL",
+      "scope": "ZIP 내부 탐색 시 PKUNZIP 부재; 트리·평탄화 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "BLOCKED_TOOL",
+          "scope": "ZIP 내부 탐색 시 PKUNZIP 부재; 트리·평탄화 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/085-archive-last-screen.txt"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-07"
+      ]
+    },
+    {
+      "id": "ARC-003",
+      "title": "생성/추가",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "ARC-004",
+      "title": "압축 후 원본 삭제",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "ARC-005",
+      "title": "추출/내부 삭제",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "ARC-006",
+      "title": "내부 파일 실행/보기",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "FIND-001",
+      "title": "파일 검색",
+      "status": "PARTIAL",
+      "scope": "C: *.TXT 검색 4개/54바이트만 확인; 다중패턴/전체드라이브 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "C: *.TXT 검색 4개/54바이트만 확인; 다중패턴/전체드라이브 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/042-mff-edit.txt",
+            "docs/evidence/2026-10-20/043-mff-exact.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "FIND-002",
+      "title": "검색 취소",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "FIND-003",
+      "title": "결과 탐색/정렬/선택",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "FIND-004",
+      "title": "결과에서 작업",
+      "status": "PARTIAL",
+      "scope": "Enter/Yes로 결과 디렉토리 복귀만 확인; /X에서 커서는 부모 행",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Enter/Yes로 결과 디렉토리 복귀만 확인; /X에서 커서는 부모 행",
+          "evidence": [
+            "docs/evidence/2026-10-20/044-mff-location.txt",
+            "docs/evidence/2026-10-20/045-mff-location-confirm.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VIEW-001",
+      "title": "코드 인식",
+      "status": "PARTIAL",
+      "scope": "Automatic KS/Johab samples, one manual F9 switch, binary sample; Hanja untested",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "BLOCKED_REGISTERED",
+          "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vv-registration-blocked.png"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/vv-02/status.json",
+          "report": "docs/VV_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Automatic KS/Johab samples, one manual F9 switch, binary sample; Hanja untested",
+          "evidence": [
+            "docs/evidence/2026-10-21/vv-02/07-ksc-auto.png",
+            "docs/evidence/2026-10-21/vv-02/08-johab-auto.png",
+            "docs/evidence/2026-10-21/vv-02/09-johab-as-ksc.png",
+            "docs/evidence/2026-10-21/vv-02/10-binary.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VIEW-002",
+      "title": "문서 이동",
+      "status": "PARTIAL",
+      "scope": "End at horizontal position 121; remaining movement cases untested",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "BLOCKED_REGISTERED",
+          "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vv-registration-blocked.png"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/vv-02/status.json",
+          "report": "docs/VV_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "End at horizontal position 121; remaining movement cases untested",
+          "evidence": [
+            "docs/evidence/2026-10-21/vv-02/11-long-end.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VIEW-003",
+      "title": "문서 표시",
+      "status": "PARTIAL",
+      "scope": "Wrap OFF/ON and tab stops 4/8; F4/F8 untested",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "BLOCKED_REGISTERED",
+          "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vv-registration-blocked.png"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/vv-02/status.json",
+          "report": "docs/VV_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Wrap OFF/ON and tab stops 4/8; F4/F8 untested",
+          "evidence": [
+            "docs/evidence/2026-10-21/vv-02/01-long-off.png",
+            "docs/evidence/2026-10-21/vv-02/02-long-wrap.png",
+            "docs/evidence/2026-10-21/vv-02/04-tabs4.png",
+            "docs/evidence/2026-10-21/vv-02/05-tabs8.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VIEW-004",
+      "title": "색상/글꼴/해상도",
+      "status": "NOT_RUN",
+      "scope": "등록 제한은 해소됐으나 글꼴·색상·해상도는 미실행",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "BLOCKED_REGISTERED",
+          "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vv-registration-blocked.png"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/vv-02/status.json",
+          "report": "docs/VV_RUNTIME_FINDINGS.ko.md",
+          "status": "UNTESTED",
+          "scope": "Fonts, colors, resolution untested",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VIEW-005",
+      "title": "설정 저장",
+      "status": "PARTIAL",
+      "scope": "F2 persists word wrap across process restart; other settings untested",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "BLOCKED_REGISTERED",
+          "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vv-registration-blocked.png"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/vv-02/status.json",
+          "report": "docs/VV_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "F2 persists word wrap across process restart; other settings untested",
+          "evidence": [
+            "docs/evidence/2026-10-21/vv-02/03-restart-wrap.png",
+            "docs/evidence/2026-10-21/vv-02/file-verification.json"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VIEW-006",
+      "title": "메뉴/종료/화면보호",
+      "status": "PARTIAL",
+      "scope": "F12 and Esc; mouse, screensaver and remaining CLI untested",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "BLOCKED_REGISTERED",
+          "scope": "VV 실행이 Register version only 메시지로 차단됨; 내부 기능 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vv-registration-blocked.png"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/vv-02/status.json",
+          "report": "docs/VV_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "F12 and Esc; mouse, screensaver and remaining CLI untested",
+          "evidence": [
+            "docs/evidence/2026-10-21/vv-02/06-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "FORMAT-001",
+      "title": "플로피 포맷",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "scope": "Active early cancellation with BIOS breakpoint; zero-filled quick-format case did not return normally",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "BLOCKED_REGISTERED",
+          "scope": "MF 메뉴는 실행; Format 작업은 등록 제한으로 차단",
+          "evidence": [
+            "docs/evidence/2026-10-20/087-mf-no-media.txt"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/disk-04/status.json",
+          "report": "docs/DISK_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL_WITH_ANOMALY",
+          "scope": "Active early cancellation with BIOS breakpoint; zero-filled quick-format case did not return normally",
+          "evidence": [
+            "docs/evidence/2026-10-21/disk-04/d027-mf-format-break.txt",
+            "docs/evidence/2026-10-21/disk-04/d028-mf-active-cancel.txt",
+            "docs/evidence/2026-10-21/disk-04/d021-mf-quick-escape.txt",
+            "docs/evidence/2026-10-21/disk-04/image-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-05",
+        "P0-10"
+      ]
+    },
+    {
+      "id": "COPY-001",
+      "title": "디스켓 복제",
+      "status": "PARTIAL",
+      "scope": "Write before Read rejected; early read/write cancellations; completed copy",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "BLOCKED_REGISTERED",
+          "scope": "MCOPY 메뉴는 실행; Read 작업은 등록 제한으로 차단",
+          "evidence": [
+            "docs/evidence/2026-10-20/091-mcopy-read-no-media.txt"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/disk-04/status.json",
+          "report": "docs/DISK_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Write before Read rejected; early read/write cancellations; completed copy",
+          "evidence": [
+            "docs/evidence/2026-10-21/disk-04/d001-write-before-read.txt",
+            "docs/evidence/2026-10-21/disk-04/d002-read-cancel.txt",
+            "docs/evidence/2026-10-21/disk-04/d009-write-cancel.txt",
+            "docs/evidence/2026-10-21/disk-04/d017-write-done.txt",
+            "docs/evidence/2026-10-21/disk-04/image-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-10"
+      ]
+    },
+    {
+      "id": "COPY-002",
+      "title": "포맷 옵션 모순",
+      "status": "PARTIAL",
+      "scope": "Format OFF copied to an already formatted equal-size FAT12 target with exact byte equality; does not prove BIOS format call absence",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Format ON/OFF 메뉴 전환은 확인; 실제 포맷 작업은 등록 제한",
+          "evidence": [
+            "docs/evidence/2026-10-20/090-mcopy-format-off.txt"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/disk-04/status.json",
+          "report": "docs/DISK_RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Format OFF copied to an already formatted equal-size FAT12 target with exact byte equality; does not prove BIOS format call absence",
+          "evidence": [
+            "docs/evidence/2026-10-21/disk-04/d008-format-off.txt",
+            "docs/evidence/2026-10-21/disk-04/d017-write-done.txt",
+            "docs/evidence/2026-10-21/disk-04/image-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-10"
+      ]
+    },
+    {
+      "id": "LEGACY-001",
+      "title": "화면보호",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "LEGACY-002",
+      "title": "한글 변환",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "LEGACY-003",
+      "title": "추가 실행파일",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "LEGACY-004",
+      "title": "구형 실행환경",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": [
+        "P0-09"
+      ]
+    },
+    {
+      "id": "SET-001",
+      "title": "Mdir / 메뉴숨김",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mdir-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-002",
+      "title": "Mdir / 도움말",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mdir-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-003",
+      "title": "Mdir / 불러오기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mdir-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-004",
+      "title": "Mdir / 저장하기",
+      "status": "PARTIAL",
+      "scope": "24시간제 변경 후 저장과 메인 반영·CFG 해시 변화 확인",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "24시간제 변경 후 저장과 메인 반영·CFG 해시 변화 확인",
+          "evidence": [
+            "docs/evidence/2026-10-20/067-mset-save.txt",
+            "docs/evidence/2026-10-20/environment.json"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-005",
+      "title": "Mdir / 색깔부르기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mdir-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-006",
+      "title": "Mdir / 색깔저장",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mdir-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-007",
+      "title": "Mdir / 등록판생성",
+      "status": "PARTIAL",
+      "scope": "합성 번호의 REG 생성·새 프로세스 등록 표시와 잘못된 suffix 대조 확인; 모든 입력·설정 조합 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mdir-menu.png"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/registration-verification.json",
+          "report": "docs/REGISTRATION_ANALYSIS.ko.md",
+          "status": "PARTIAL",
+          "scope": "합성 번호의 REG 생성·새 프로세스 등록 표시와 잘못된 suffix 대조 확인; 모든 입력·설정 조합 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-21/registration-verification.json",
+            "docs/evidence/2026-10-21/generated-about.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-008",
+      "title": "Mdir / 종료",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mdir-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-009",
+      "title": "프로그램 / 확장자지정",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-010",
+      "title": "프로그램 / 펑션키지정",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-011",
+      "title": "프로그램 / 파일보기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-012",
+      "title": "프로그램 / 디스크포맷",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-013",
+      "title": "프로그램 / 디스크복사",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-014",
+      "title": "프로그램 / 디스크파킹",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-015",
+      "title": "프로그램 / 파일찾기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-016",
+      "title": "프로그램 / 화면보호",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-017",
+      "title": "프로그램 / 명령처리기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-018",
+      "title": "프로그램 / 임시디렉토리",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-019",
+      "title": "프로그램 / 도스명령 정지",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-020",
+      "title": "프로그램 / 프로그램 정지",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-program-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-021",
+      "title": "메인화면 / 컬럼수",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-022",
+      "title": "메인화면 / 파일정렬",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-023",
+      "title": "메인화면 / 압축파일",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-024",
+      "title": "메인화면 / Esc키",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-025",
+      "title": "메인화면 / 가로선",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-026",
+      "title": "메인화면 / 세로선",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-027",
+      "title": "메인화면 / 세로크기고정",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-028",
+      "title": "메인화면 / 스크롤 막대",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-029",
+      "title": "메인화면 / 소문자",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-030",
+      "title": "메인화면 / 속성표시",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-031",
+      "title": "메인화면 / 숨은파일",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-032",
+      "title": "메인화면 / 실행파일만",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-033",
+      "title": "메인화면 / 삭제초기값",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-034",
+      "title": "메인화면 / 풀메모리",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-035",
+      "title": "메인화면 / 주석보기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-036",
+      "title": "메인화면 / 디렉토리재현",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-037",
+      "title": "메인화면 / Ins/Del 차별화",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-038",
+      "title": "메인화면 / @D/Del 맞바꿈",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-main-options.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-039",
+      "title": "MCD / 화면크기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mcd-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-040",
+      "title": "MCD / 디렉토리지움",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mcd-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-041",
+      "title": "MCD / 루트 삭제가능",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mcd-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-042",
+      "title": "MCD / DEL키 사용",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mcd-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-043",
+      "title": "MCD / MCD 정렬",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mcd-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-044",
+      "title": "MCD / MCD시작",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mcd-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-045",
+      "title": "MCD / MCD후 종료",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mcd-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-046",
+      "title": "MCD / FDD 정지",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-mcd-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-047",
+      "title": "기타 / 화면보호시간",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-048",
+      "title": "기타 / 한글코드",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-049",
+      "title": "기타 / 화면크기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-050",
+      "title": "기타 / M.HIS저장",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-051",
+      "title": "기타 / LAN드라이브",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-052",
+      "title": "기타 / 24시간제",
+      "status": "PARTIAL",
+      "scope": "24시간제 OFF->ON 저장·재시작 유지 확인; 취소 사례 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "24시간제 OFF->ON 저장·재시작 유지 확인; 취소 사례 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-time-option.png",
+            "docs/evidence/2026-10-20/082-restart-restored.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-053",
+      "title": "기타 / 느린상자열기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-054",
+      "title": "기타 / 로고상자표시",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-055",
+      "title": "기타 / 마우스사용",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-056",
+      "title": "기타 / 왼손마우스",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-057",
+      "title": "기타 / 빠른초기화",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-058",
+      "title": "기타 / 빠른  키입력",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-059",
+      "title": "기타 / 확장빨리찾기",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-060",
+      "title": "기타 / 흑백색깔사용",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-061",
+      "title": "기타 / 팔레트변경가능",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-062",
+      "title": "기타 / 드라이브종류",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-063",
+      "title": "기타 / 캐쉬버퍼저장",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-064",
+      "title": "기타 / 긴파일명지원",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-other-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-065",
+      "title": "색깔 / 파일확장자별",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-066",
+      "title": "색깔 / MCD",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-067",
+      "title": "색깔 / MCD 상태선",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-068",
+      "title": "색깔 / 디렉토리명",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-069",
+      "title": "색깔 / 드라이브명",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-070",
+      "title": "색깔 / 메인화면 선",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-071",
+      "title": "색깔 / 펑션키 보통",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-072",
+      "title": "색깔 / 펑션키 강조",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-073",
+      "title": "색깔 / 파일수 보통",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-074",
+      "title": "색깔 / 파일수 강조",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-075",
+      "title": "색깔 / 나머지 파일",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-076",
+      "title": "색깔 / 도움말",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-077",
+      "title": "색깔 / 빨리찾기메인",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-078",
+      "title": "색깔 / 빨리찾기MCD",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-079",
+      "title": "색깔 / 대화상자",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-080",
+      "title": "색깔 / 메인화면배경",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-081",
+      "title": "색깔 / 펑션키  배경",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "SET-082",
+      "title": "색깔 / 팔레트",
+      "status": "MENU_OBSERVED",
+      "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "MENU_OBSERVED",
+          "scope": "MSET 메뉴의 존재를 관찰함; 항목 변경·취소·저장 효과는 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/mset-colors-menu.png"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-001",
+      "title": "`!.!`",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "OBSERVED_CASE",
+          "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vars.txt",
+            "docs/evidence/2026-10-20/096-simple-variables-result.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-002",
+      "title": "`%F`",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "OBSERVED_CASE",
+          "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vars.txt",
+            "docs/evidence/2026-10-20/096-simple-variables-result.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-003",
+      "title": "`!,`",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "OBSERVED_CASE",
+          "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vars.txt",
+            "docs/evidence/2026-10-20/096-simple-variables-result.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-004",
+      "title": "`,!`",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "OBSERVED_CASE",
+          "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vars.txt",
+            "docs/evidence/2026-10-20/096-simple-variables-result.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-005",
+      "title": "`!\\`",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "OBSERVED_CASE",
+          "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vars.txt",
+            "docs/evidence/2026-10-20/096-simple-variables-result.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-006",
+      "title": "`%A`",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "OBSERVED_CASE",
+          "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vars.txt",
+            "docs/evidence/2026-10-20/096-simple-variables-result.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-007",
+      "title": "`!:`",
+      "status": "OBSERVED_CASE",
+      "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "OBSERVED_CASE",
+          "scope": "TEST.ZIP에서 단순 치환 한 사례 확인; 경계·취소·다른 문맥 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vars.txt",
+            "docs/evidence/2026-10-20/096-simple-variables-result.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-008",
+      "title": "`!\\!.!`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-009",
+      "title": "`%D`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-010",
+      "title": "`%R`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-011",
+      "title": "`%M`",
+      "status": "DIFF",
+      "scope": "ECHO의 %M 치환 결과 빈 값; 문서 기대 C:\\MDIR\\와 다름. 원인 미확정",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "DIFF",
+          "scope": "ECHO의 %M 치환 결과 빈 값; 문서 기대 C:\\MDIR\\와 다름. 원인 미확정",
+          "evidence": [
+            "docs/evidence/2026-10-20/vars.txt"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-01"
+      ]
+    },
+    {
+      "id": "VAR-012",
+      "title": "`%1-%0`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-013",
+      "title": "`%[xxx]`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-014",
+      "title": "`%;`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-015",
+      "title": "`%B`",
+      "status": "PARTIAL",
+      "scope": "Explicit %B under /X and without /X; automatic chaining unresolved",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        },
+        {
+          "date": "2026-10-21",
+          "source": "docs/evidence/2026-10-21/registered-03/status.json",
+          "report": "docs/REGISTERED_OPERATIONS.ko.md",
+          "status": "PARTIAL",
+          "scope": "Explicit %B under /X and without /X; automatic chaining unresolved",
+          "evidence": [
+            "docs/evidence/2026-10-21/registered-03/file-verification.json"
+          ]
+        }
+      ],
+      "open_issues": [
+        "P0-04"
+      ]
+    },
+    {
+      "id": "VAR-016",
+      "title": "`%N`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-017",
+      "title": "`%P`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-018",
+      "title": "`%$`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-019",
+      "title": "`%%`",
+      "status": "NOT_RUN",
+      "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "NOT_RUN",
+          "scope": "문서 근거만 있음; 다음 실행 조사에서 정상/취소/오류 사례 작성 필요",
+          "evidence": []
+        }
+      ],
+      "open_issues": []
+    },
+    {
+      "id": "VAR-020",
+      "title": "`%L`",
+      "status": "PARTIAL",
+      "scope": "%L이 TEST.ZIP 반환; DOS6.22/LFN OFF이므로 긴 이름 동작 미검증",
+      "observations": [
+        {
+          "date": "2026-10-20",
+          "source": "docs/evidence/2026-10-20/runtime-status.json",
+          "report": "docs/RUNTIME_FINDINGS.ko.md",
+          "status": "PARTIAL",
+          "scope": "%L이 TEST.ZIP 반환; DOS6.22/LFN OFF이므로 긴 이름 동작 미검증",
+          "evidence": [
+            "docs/evidence/2026-10-20/vars.txt"
+          ]
+        }
+      ],
+      "open_issues": []
+    }
+  ]
+}
