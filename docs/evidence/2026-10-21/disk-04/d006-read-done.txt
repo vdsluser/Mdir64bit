@@ -1,0 +1,25 @@
+
+
+                             MdirIII DiskCopy 3.10
+
+
+              DiskCopy         Ins                  INFO
+             ──────────────────────
+              Read               R          SOURCE Drive   -  A:
+              Write              W          TARGET Drive   -  A:
+             ──────────────────────        ──────────────────────
+              Source            F3          Write          - ON
+              Target            F4          Format         - ON
+              Number of Copy    F5         ──────────────────────
+             ──────────────────────         Number of Copy - 1
+              Format             F
+             ──────────────────────
+              Quit              @X           (C), MDIR COMPUTER
+
+
+
+
+
+
+
+                                               │  -READ │ o -FORMAT │ O -WRITE

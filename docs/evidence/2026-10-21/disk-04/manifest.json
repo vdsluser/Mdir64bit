@@ -1,0 +1,62 @@
+{
+  "d001-write-before-read.txt": {
+    "bytes": 1080,
+    "sha256": "4891ad07c8d1176e905aeab7e237e8458970875b49c026de474f250ef4c5ddc6"
+  },
+  "d002-read-cancel.txt": {
+    "bytes": 1117,
+    "sha256": "8d49e56c14c1c72f89bd788a85d02806fe4a5f79d34eb1a6859db3486030827f"
+  },
+  "d006-read-done.txt": {
+    "bytes": 1116,
+    "sha256": "6fe47fbae01e767a00e999a83754710118f9e0e484ab53fab73182f620930efb"
+  },
+  "d008-format-off.txt": {
+    "bytes": 1117,
+    "sha256": "ce80bfcd170385e0f6f825c22ca6ba7db51c3347a692c6318ee6acf359bf0954"
+  },
+  "d009-write-cancel.txt": {
+    "bytes": 1117,
+    "sha256": "ce80bfcd170385e0f6f825c22ca6ba7db51c3347a692c6318ee6acf359bf0954"
+  },
+  "d017-write-done.txt": {
+    "bytes": 1117,
+    "sha256": "ce80bfcd170385e0f6f825c22ca6ba7db51c3347a692c6318ee6acf359bf0954"
+  },
+  "d018-mf-mode.txt": {
+    "bytes": 733,
+    "sha256": "b855e91dfbf7bb1c2d7b3e4a6b46752b665f3d8b79c81bfc98d8e68ba4d5b1b2"
+  },
+  "d019-mf-quick-blank.txt": {
+    "bytes": 779,
+    "sha256": "a8dd0cd7061c6f7421e3894b9a2031686fdbcb80a3b798595fc2b0341bb7b532"
+  },
+  "d021-mf-quick-escape.txt": {
+    "bytes": 781,
+    "sha256": "8c0b50bb8240fa4754ab84e4bc49a31c560b06a393400ddbfb301bf6241e11fc"
+  },
+  "d027-mf-format-break.txt": {
+    "bytes": 1014,
+    "sha256": "5b6ffc4c4a5159447a8d31944eea3241968421712459bf3c3d75b8daea7e1ab1"
+  },
+  "d028-mf-active-cancel.txt": {
+    "bytes": 731,
+    "sha256": "90c0060b3b90329171f7f83b5fd986fc6138ca0e2b3790040489330dd9a16f0f"
+  },
+  "image-verification.json": {
+    "bytes": 2001,
+    "sha256": "248b81ce87ff9433e0c913cdb7d3f506549c61aeb4e889b0587aa057c20e5a6f"
+  },
+  "initial-snapshot-hashes.json": {
+    "bytes": 472,
+    "sha256": "30642e210ce00b73d91e8c16e3640d2e86dd6fa5d920b82cacc3075fa3a2287c"
+  },
+  "mf-breakpoint-method.json": {
+    "bytes": 364,
+    "sha256": "887f4cedea821ac27ba0910db204c7bde44b53823ad8197ac68f055215c6dcaf"
+  },
+  "status.json": {
+    "bytes": 1242,
+    "sha256": "fd622226abc5f84b5a98acc108fc9a16f5084589c949281d94ea8888784f3b63"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "breakpoint": "BPINT 13 05",
+  "reason": "Pause at BIOS format-track service to enqueue Esc while format is active",
+  "clear_before_resume": {
+    "ok": true,
+    "output": [
+      [
+        "BEGIN 225 OK",
+        "END 225"
+      ],
+      [
+        "BEGIN 226 OK",
+        "DEBUG: Breakpoints deleted.",
+        "END 226"
+      ]
+    ]
+  }
+}

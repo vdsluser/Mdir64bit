@@ -1,0 +1,25 @@
+
+                               MdirIII Format 3.10
+
+
+
+                Format           Ins                 INFO
+               ──────────────────────
+                Drive             F3          Drive  - A:
+                Size              F4          Size   - 1.4M 2HD
+                Mode              F5          Mode   - Quick
+               ──────────────────────
+                Verify            F6          Verify - ON
+                Direction         F7          Direct - Forward
+               ──────────────────────
+                Quit              @X
+
+
+
+
+                                  Quick Format
+
+
+
+
+^C

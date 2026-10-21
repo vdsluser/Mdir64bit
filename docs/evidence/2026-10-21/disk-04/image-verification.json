@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-21",
+  "checks": {
+    "input_images_different": true,
+    "read_cancel_source_unchanged": true,
+    "read_cancel_target_unchanged": true,
+    "early_write_cancel_target_unchanged": true,
+    "format_off_target_matches_source": true,
+    "source_unchanged_after_copy": true,
+    "blank_quick_input_still_zero": true,
+    "early_mf_cancel_image_unchanged": true
+  },
+  "images": {
+    "a-before.img": {
+      "bytes": 1474560,
+      "sha256": "452e7006cb97b0f773631d5e4fd3cffb1f05171cdf31b15daedd4f9d06ae0c62"
+    },
+    "b-before.img": {
+      "bytes": 1474560,
+      "sha256": "62b02897783b004a73d4567118576677d9bbf5a6818dc75f6c9648c587048310"
+    },
+    "a-after-read-cancel.img": {
+      "bytes": 1474560,
+      "sha256": "452e7006cb97b0f773631d5e4fd3cffb1f05171cdf31b15daedd4f9d06ae0c62"
+    },
+    "b-after-read-cancel.img": {
+      "bytes": 1474560,
+      "sha256": "62b02897783b004a73d4567118576677d9bbf5a6818dc75f6c9648c587048310"
+    },
+    "b-after-write-cancel.img": {
+      "bytes": 1474560,
+      "sha256": "62b02897783b004a73d4567118576677d9bbf5a6818dc75f6c9648c587048310"
+    },
+    "a.img": {
+      "bytes": 1474560,
+      "sha256": "452e7006cb97b0f773631d5e4fd3cffb1f05171cdf31b15daedd4f9d06ae0c62"
+    },
+    "b-after-off.img": {
+      "bytes": 1474560,
+      "sha256": "452e7006cb97b0f773631d5e4fd3cffb1f05171cdf31b15daedd4f9d06ae0c62"
+    },
+    "blank-after.img": {
+      "bytes": 1474560,
+      "sha256": "b6e6d0ef201c489c78b3d783aa4486909d2089fe2ef487dc331e1066e26c7cb8"
+    },
+    "mf-cancel.img": {
+      "bytes": 1474560,
+      "sha256": "452e7006cb97b0f773631d5e4fd3cffb1f05171cdf31b15daedd4f9d06ae0c62"
+    }
+  },
+  "physical_devices_used": false,
+  "mf_quick_zero_image": "Quick Format remained displayed; Esc did not establish normal menu return; process stopped",
+  "timing_scope": "BIOS debugger pause/resume and keyboard queue; no real-time guarantees",
+  "late_write_cancel_tested": false
+}

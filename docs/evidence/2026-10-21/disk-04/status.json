@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-21",
+  "scope": "Supplement to existing feature IDs",
+  "features": [
+    {
+      "id": "FORMAT-001",
+      "status": "PARTIAL_WITH_ANOMALY",
+      "observed": "Active early cancellation with BIOS breakpoint; zero-filled quick-format case did not return normally",
+      "evidence": [
+        "d027-mf-format-break.txt",
+        "d028-mf-active-cancel.txt",
+        "d021-mf-quick-escape.txt",
+        "image-verification.json"
+      ]
+    },
+    {
+      "id": "COPY-001",
+      "status": "PARTIAL",
+      "observed": "Write before Read rejected; early read/write cancellations; completed copy",
+      "evidence": [
+        "d001-write-before-read.txt",
+        "d002-read-cancel.txt",
+        "d009-write-cancel.txt",
+        "d017-write-done.txt",
+        "image-verification.json"
+      ]
+    },
+    {
+      "id": "COPY-002",
+      "status": "PARTIAL",
+      "observed": "Format OFF copied to an already formatted equal-size FAT12 target with exact byte equality; does not prove BIOS format call absence",
+      "evidence": [
+        "d008-format-off.txt",
+        "d017-write-done.txt",
+        "image-verification.json"
+      ]
+    }
+  ],
+  "fully_verified_feature_rows": 0
+}
